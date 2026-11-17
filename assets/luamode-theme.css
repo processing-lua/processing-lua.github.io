@@ -1,0 +1,114 @@
+/* LuaMode editor theme -- exact Processing 4 colors from theme.txt */
+.cm-s-luamode.CodeMirror {
+  background: #ffffff;
+  color: #222222;
+  font-family: 'Source Code Pro', 'Consolas', monospace;
+}
+.cm-s-luamode .CodeMirror-gutters {
+  background: #f2f2f2;
+  border-right: 1px solid #e0e0e0;
+  color: #aaaaaa;
+}
+.cm-s-luamode .CodeMirror-cursor { border-left: 2px solid #333; }
+.cm-s-luamode .CodeMirror-selected { background: #d4e9ff; }
+.cm-s-luamode .CodeMirror-activeline-background { background: #f5f5f5; }
+.cm-s-luamode .CodeMirror-matchingbracket { color: #000 !important; background: #d4edda; }
+
+/* function1/function2/function3: #006698 plain */
+.cm-s-luamode .cm-function2    { color: #006698; }
+/* function4: #006698 bold */
+.cm-s-luamode .cm-function4    { color: #006698; font-weight: bold; }
+/* keyword1/keyword2/keyword6: #30987F plain */
+.cm-s-luamode .cm-keyword      { color: #30987F; }
+.cm-s-luamode .cm-type         { color: #E7671C; }
+.cm-s-luamode .cm-type         { color: #E7671C; }
+.cm-s-luamode .cm-keyword1     { color: #30987F; }
+.cm-s-luamode .cm-keyword2     { color: #30987F; }
+.cm-s-luamode .cm-keyword6     { color: #30987F; }
+/* keyword3: #6D9810 plain */
+.cm-s-luamode .cm-keyword3     { color: #6D9810; }
+/* keyword4: #DB4D7A plain */
+.cm-s-luamode .cm-keyword4     { color: #DB4D7A; }
+/* keyword5: #E7671C plain */
+.cm-s-luamode .cm-keyword5     { color: #E7671C; }
+/* literal1: #738A63 plain */
+.cm-s-luamode .cm-literal1     { color: #738A63; }
+/* literal2: #754891 plain */
+.cm-s-luamode .cm-literal2     { color: #754891; }
+/* strings: literal1 color */
+.cm-s-luamode .cm-string       { color: #738A63; }
+.cm-s-luamode .cm-string-2     { color: #738A63; }
+/* numbers: black */
+.cm-s-luamode .cm-number       { color: #222222; }
+/* comments: #656565 plain */
+.cm-s-luamode .cm-comment      { color: #656565; font-style: italic; }
+/* preprocessor: keyword5 color */
+.cm-s-luamode .cm-preprocessor { color: #E7671C; }
+/* operator: #006698 */
+.cm-s-luamode .cm-operator     { color: #006698; }
+/* plain identifiers */
+.cm-s-luamode .cm-variable     { color: #222222; }
+/* invalid */
+.cm-s-luamode .cm-error        { color: #656565; font-weight: bold; }
+
+/* Token names emitted by cm-luamode.js */
+.cm-s-luamode .cm-luamode-k5  { color: #E7671C; }   /* types: int, float, void... */
+.cm-s-luamode .cm-luamode-k6  { color: #30987F; }   /* keywords: if, for, while... */
+.cm-s-luamode .cm-luamode-k3  { color: #6D9810; }   /* literals */
+.cm-s-luamode .cm-luamode-k4  { color: #DB4D7A; }   /* special */
+.cm-s-luamode .cm-luamode-f1  { color: #006698; }   /* functions */
+.cm-s-luamode .cm-luamode-f2  { color: #006698; font-weight: bold; }
+
+/* ── Dark mode variant ─────────────────────────────────────────── */
+.cm-s-luamode-dark.CodeMirror {
+  background: #1e1e2e;
+  color: #cdd6f4;
+  font-family: 'Source Code Pro', 'Consolas', monospace;
+}
+.cm-s-luamode-dark .CodeMirror-gutters {
+  background: #181825;
+  border-right: 1px solid #313244;
+  color: #6c7086;
+}
+.cm-s-luamode-dark .CodeMirror-cursor { border-left: 2px solid #f5c2e7; }
+.cm-s-luamode-dark .CodeMirror-selected { background: #313244; }
+.cm-s-luamode-dark .CodeMirror-activeline-background { background: #24243e; }
+.cm-s-luamode-dark .CodeMirror-matchingbracket { color: #a6e3a1 !important; background: #313244; }
+/* functions: bright cyan */
+.cm-s-luamode-dark .cm-function2    { color: #00d4ff; font-weight: bold; }
+.cm-s-luamode-dark .cm-function4    { color: #00d4ff; font-weight: bold; }
+.cm-s-luamode-dark .cm-luamode-f1  { color: #00d4ff; }
+.cm-s-luamode-dark .cm-luamode-f2  { color: #00d4ff; font-weight: bold; }
+/* keywords if/for/while: bright green */
+.cm-s-luamode-dark .cm-keyword      { color: #50fa7b; }
+.cm-s-luamode-dark .cm-keyword1     { color: #50fa7b; }
+.cm-s-luamode-dark .cm-keyword2     { color: #50fa7b; }
+.cm-s-luamode-dark .cm-keyword6     { color: #50fa7b; }
+.cm-s-luamode-dark .cm-luamode-k6  { color: #50fa7b; }
+/* keyword3 true/false: teal */
+.cm-s-luamode-dark .cm-keyword3     { color: #8be9fd; }
+.cm-s-luamode-dark .cm-luamode-k3  { color: #8be9fd; }
+/* keyword4: hot pink */
+.cm-s-luamode-dark .cm-keyword4     { color: #ff79c6; }
+.cm-s-luamode-dark .cm-luamode-k4  { color: #ff79c6; }
+/* types int float color: orange */
+.cm-s-luamode-dark .cm-keyword5     { color: #ffb86c; }
+.cm-s-luamode-dark .cm-type         { color: #ffb86c; }
+.cm-s-luamode-dark .cm-luamode-k5  { color: #ffb86c; }
+/* strings: yellow-green */
+.cm-s-luamode-dark .cm-literal1     { color: #f1fa8c; }
+.cm-s-luamode-dark .cm-literal2     { color: #bd93f9; }
+.cm-s-luamode-dark .cm-string       { color: #f1fa8c; }
+.cm-s-luamode-dark .cm-string-2     { color: #f1fa8c; }
+/* numbers: orange */
+.cm-s-luamode-dark .cm-number       { color: #ffb86c; }
+/* comments: muted */
+.cm-s-luamode-dark .cm-comment      { color: #6272a4; font-style: italic; }
+/* preprocessor: purple */
+.cm-s-luamode-dark .cm-preprocessor { color: #bd93f9; }
+/* operators: cyan */
+.cm-s-luamode-dark .cm-operator     { color: #8be9fd; }
+/* variables: white */
+.cm-s-luamode-dark .cm-variable     { color: #f8f8f2; }
+/* error: red */
+.cm-s-luamode-dark .cm-error        { color: #ff5555; font-weight: bold; }
