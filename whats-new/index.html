@@ -66,106 +66,93 @@
   <div class="content">
     <h1>What's New</h1>
     <p class="prelude">
-      Lua Mode is designed to feel as close to Processing Java as possible.
-      <strong>Most of what you already know works exactly the same.</strong>
+      Lua Mode keeps Processing's names. <strong>The API is the one you know:</strong>
       <code>setup()</code>, <code>draw()</code>, <code>ellipse()</code>, <code>background()</code>,
       <code>mouseX</code>, <code>mouseY</code>, <code>fill()</code>, <code>stroke()</code> all work the same way.
-      The changes below are the only things you need to learn.
-      Everything else carries over from Processing Java without modification.
+      What changes is the language around them. These are the things to know.
     </p>
     <div class="wn-grid">
       <div class="wn-card">
         <div class="wn-tag changed">Changed</div>
-        <div class="wn-card-title">PGraphics, PImage, PShape and PFont use pointer notation</div>
+        <div class="wn-card-title">Functions end with end</div>
         <div class="wn-card-body">
-          <p>In Processing Java, graphics objects are references and you access their methods with a dot. In Lua Mode they are pointers, so you declare them with <code>*</code> and access their members with <code>-&gt;</code> instead of <code>.</code>.</p>
-          <pre>// Java (does not work in Lua Mode):
-PGraphics pg = createGraphics(400, 300);
-pg.beginDraw();
-pg.background(255);
-pg.endDraw();
-
-// Lua Mode:
-PGraphics* pg = createGraphics(400, 300);
-pg-&gt;beginDraw();
-pg-&gt;background(255);
-pg-&gt;endDraw();</pre>
-          <p>The same applies to <code>PImage*</code>, <code>PShape*</code>, <code>PFont*</code>, and <code>PShader*</code>. Forgetting the <code>*</code> or using <code>.</code> instead of <code>-&gt;</code> produces a compiler error.</p>
+          <p>Blocks use <code>then</code>, <code>do</code> and <code>end</code> instead of braces, and lines don't need semicolons.</p>
+          <pre>function draw()
+  if mouseX > width / 2 then
+    fill(255)
+  else
+    fill(0)
+  end
+end</pre>
         </div>
       </div>
       <div class="wn-card">
         <div class="wn-tag changed">Changed</div>
-        <div class="wn-card-title">_mousePressed and _keyPressed</div>
+        <div class="wn-card-title">Variables are local or global</div>
         <div class="wn-card-body">
-          <p>In Processing Java, <code>mousePressed</code> is both a boolean variable that tells you if the mouse is held right now, and an event callback function that fires once on click. Lua does not allow a variable and a function to share the same name in the same scope, so the boolean variables are renamed with an underscore prefix to avoid the collision.</p>
-          <p>The event callbacks keep their original names unchanged. Only the state variables change.</p>
-          <pre>// Check if mouse is currently held down:
-if (_mousePressed) { ... }
-// Check if any key is currently held down:
-if (_keyPressed) { ... }
-// Event callbacks are unchanged:
-void mousePressed() { ... }
-void mouseReleased() { ... }
-void keyPressed()   { ... }
-void keyReleased()  { ... }</pre>
+          <p>There are no types to write. <code>local x = 10</code> makes a variable for the file or the function it's in. Variables a sketch keeps between frames go at the top of the file.</p>
+        </div>
+      </div>
+      <div class="wn-card">
+        <div class="wn-tag changed">Changed</div>
+        <div class="wn-card-title">Text joins with ..</div>
+        <div class="wn-card-body">
+          <p><code>+</code> only adds numbers. Join text with <code>..</code>: <code>text("score: " .. score, 10, 20)</code>.</p>
+        </div>
+      </div>
+      <div class="wn-card">
+        <div class="wn-tag changed">Changed</div>
+        <div class="wn-card-title">Lists are tables, counted from 1</div>
+        <div class="wn-card-body">
+          <p>A Java array is a table: <code>local xs = {1, 2, 3}</code>, and <code>xs[1]</code> is the first one. <code>#xs</code> is how many there are. <code>table.insert(xs, v)</code> adds to the end, and <code>for i, v in ipairs(xs) do ... end</code> goes through them.</p>
+          <p>Processing's own indexes stay as they are in Java: <code>pixels[]</code>, <code>get(i)</code> on IntList and the like are counted from 0, so the index math from Java examples still works.</p>
+        </div>
+      </div>
+      <div class="wn-card">
+        <div class="wn-tag changed">Changed</div>
+        <div class="wn-card-title">Methods use a colon</div>
+        <div class="wn-card-body">
+          <p>Calling a method on an object uses <code>:</code>, as in <code>v:add(w)</code>, <code>img:get(x, y)</code> or <code>pg:beginDraw()</code>. Fields are still read with a dot: <code>img.width</code>, <code>v.x</code>.</p>
+        </div>
+      </div>
+      <div class="wn-card">
+        <div class="wn-tag changed">Changed</div>
+        <div class="wn-card-title">Classes are tables with new()</div>
+        <div class="wn-card-body">
+          <p>Lua has no <code>class</code> keyword. A class is a table with a <code>new</code> function, and its methods are written with a colon:</p>
+          <pre>Ball = {}
+Ball.__index = Ball
+
+function Ball.new(x, y)
+  local self = setmetatable({}, Ball)
+  self.x, self.y = x, y
+  return self
+end
+
+function Ball:display()
+  ellipse(self.x, self.y, 20, 20)
+end</pre>
+        </div>
+      </div>
+      <div class="wn-card">
+        <div class="wn-tag changed">Changed</div>
+        <div class="wn-card-title">Division doesn't round</div>
+        <div class="wn-card-body">
+          <p><code>7 / 2</code> is <code>3.5</code>. When you want Java's whole-number division, use <code>7 // 2</code>, or <code>int()</code>.</p>
+        </div>
+      </div>
+      <div class="wn-card">
+        <div class="wn-tag same">Same</div>
+        <div class="wn-card-title">mousePressed works both ways</div>
+        <div class="wn-card-body">
+          <p>As in Java, <code>mousePressed</code> is true while the mouse is held, and <code>function mousePressed()</code> runs once per click. The same goes for <code>keyPressed</code>.</p>
         </div>
       </div>
       <div class="wn-card">
         <div class="wn-tag new">New</div>
-        <div class="wn-card-title">captureMouse() and releaseMouse()</div>
+        <div class="wn-card-title">Two renderers</div>
         <div class="wn-card-body">
-          <p><code>captureMouse()</code> locks the cursor to the window and enables raw mouse input, completely bypassing OS acceleration and cursor boundaries. This is the right approach for first-person and shooter games where the mouse needs to rotate a camera freely without hitting the edge of the screen.</p>
-          <p><code>releaseMouse()</code> restores normal cursor behavior. Call it when you open a menu, show a dialog, or pause the game.</p>
-          <pre>void setup() {
-    size(640, 360, P3D);
-    captureMouse();
-}
-void draw() {
-    // camera controlled by mouse freely
-}
-void keyPressed() {
-    if (key == ESC) releaseMouse();
-}</pre>
-        </div>
-      </div>
-      <div class="wn-card">
-        <div class="wn-tag new">New</div>
-        <div class="wn-card-title">mouseDX and mouseDY</div>
-        <div class="wn-card-body">
-          <p>Two new variables that accumulate raw mouse movement between frames. Unlike <code>mouseX - pmouseX</code>, these capture every cursor event that occurs between frames so fast mouse movement is never dropped or lost at high frame rates.</p>
-          <p>They reset to <code>0</code> automatically after each <code>draw()</code> call. Use them for FPS camera rotation, turret aiming, or any other input that needs to be frame-rate independent.</p>
-          <pre>float yaw = 0, pitch = 0;
-void setup() {
-    size(640, 360, P3D);
-    captureMouse();
-}
-void draw() {
-    yaw   += mouseDX * 0.002;
-    pitch += mouseDY * 0.002;
-    pitch  = constrain(pitch, -PI/2, PI/2);
-    camera(0, 0, 0,
-           cos(pitch) * sin(yaw),
-           sin(pitch),
-           cos(pitch) * cos(yaw),
-           0, 1, 0);
-    background(20);
-    lights();
-    box(100);
-}</pre>
-        </div>
-      </div>
-      <div class="wn-card">
-        <div class="wn-tag new">New</div>
-        <div class="wn-card-title">Full Lua Standard Library included</div>
-        <div class="wn-card-body">
-          <p>Every Lua standard library header is included automatically. You do not need a single <code>#include</code> anywhere in your sketch. Threads, algorithms, containers, all of modern Lua is just there.</p>
-          <pre>// All of this just works with no includes:
-std::vector&lt;float&gt; data = {3, 1, 2};
-std::sort(data.begin(), data.end());
-std::thread t([] { doWork(); });
-t.detach();
-std::unordered_map&lt;std::string, int&gt; scores;
-std::optional&lt;int&gt; val = 42;</pre>
+          <p>The toolbar has a renderer menu. The default draws on the CPU. <strong>libprocessing</strong> draws with Bevy and wgpu on your graphics card, with real 3D lights and shaders.</p>
         </div>
       </div>
     </div>

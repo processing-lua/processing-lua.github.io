@@ -1,0 +1,5772 @@
+sidebar:
+- category: Data
+  subcats:
+  - name: Composite
+    slugs:
+    - BufferedReader_class
+    - HashMap_class
+    - PFont_class
+    - PGraphics_class
+    - PImage_class
+    - PShader_class
+    - PShape_class
+    - PVector
+    - PrintWriter_class
+    - TableRow_class
+    - Table_class
+    - XML_class
+  - name: Array Functions
+    slugs:
+    - append
+    - arrayCopy
+    - concat
+    - expand
+    - reverse_arr
+    - shorten
+    - sort_arr
+    - splice
+    - subset
+  - name: Conversion
+    slugs:
+    - binary
+    - hex
+    - str
+    - unbinary
+    - unhex
+  - name: Primitive
+    slugs:
+    - color_type
+  - name: String Functions
+    slugs:
+    - join
+    - matchAll
+    - match
+    - nf
+    - split
+    - splitTokens
+    - trim
+- category: Input
+  subcats:
+  - name: Files
+    slugs:
+    - createInput
+    - createReader
+    - launch
+    - loadBytes
+    - loadJSONArray
+    - loadJSONObject
+    - loadStrings
+    - loadTable
+    - loadXML
+    - parseJSONArray
+    - parseJSONObject
+    - parseXML
+    - selectFolder
+    - selectInput
+  - name: Time & Date
+    slugs:
+    - day
+    - hour
+    - millis
+    - minute
+    - month
+    - second
+    - year
+  - name: Keyboard
+    slugs:
+    - key
+    - keyPressed_var
+    - keyCode
+    - keyReleased
+    - keyPressed_fn
+    - keyTyped
+  - name: Mouse
+    slugs:
+    - mouseButton
+    - mouseClicked
+    - mouseDragged
+    - mouseMoved
+    - mousePressed_var
+    - mousePressed_fn
+    - mouseWheel
+    - mouseReleased
+    - mouseX
+    - mouseY
+    - pmouseX
+    - pmouseY
+- category: Constants
+  subcats:
+  - name: null
+    slugs:
+    - HALF_PI
+    - PI
+    - QUARTER_PI
+    - TAU
+    - TWO_PI
+- category: Typography
+  subcats:
+  - name: Loading & Displaying
+    slugs:
+    - PFont_class
+    - createFont
+    - loadFont
+    - textFont
+    - text
+  - name: Attributes
+    slugs:
+    - textAlign
+    - textLeading
+    - textMode
+    - textSize
+    - textWidth
+  - name: Metrics
+    slugs:
+    - textAscent
+    - textDescent
+- category: Rendering
+  subcats:
+  - name: null
+    slugs:
+    - PGraphics_class
+    - blendMode
+    - clip
+    - createGraphics
+    - hint
+    - noClip
+  - name: Shaders
+    slugs:
+    - PShader_class
+    - loadShader
+    - resetShader
+    - shader_fn
+- category: Image
+  subcats:
+  - name: null
+    slugs:
+    - PImage_class
+    - createImage
+  - name: Pixels
+    slugs:
+    - blend_fn
+    - copy_fn
+    - filter
+    - get_pixel
+    - loadPixels
+    - mask_fn
+    - pixels_arr
+    - set_pixel
+    - updatePixels
+  - name: Loading & Displaying
+    slugs:
+    - image
+    - imageMode
+    - loadImage
+    - noTint
+    - tint
+  - name: Textures
+    slugs:
+    - texture
+    - textureMode
+    - textureWrap
+- category: Shape
+  subcats:
+  - name: null
+    slugs:
+    - PShape_class
+    - createShape
+    - loadShape
+  - name: 2D Primitives
+    slugs:
+    - arc
+    - circle
+    - ellipse
+    - line
+    - point
+    - quad
+    - rect
+    - square
+    - triangle
+  - name: Vertex
+    slugs:
+    - beginContour
+    - beginShape
+    - bezierVertex
+    - curveVertex
+    - endContour
+    - endShape
+    - quadraticVertex
+    - vertex
+  - name: Curves
+    slugs:
+    - bezierDetail
+    - bezierPoint
+    - bezierTangent
+    - bezier
+    - curveDetail
+    - curvePoint
+    - curveTangent
+    - curveTightness
+    - curve
+  - name: 3D Primitives
+    slugs:
+    - box
+    - sphere
+    - sphereDetail
+  - name: Attributes
+    slugs:
+    - ellipseMode
+    - rectMode
+    - strokeCap
+    - strokeJoin
+    - strokeWeight
+  - name: Loading & Displaying
+    slugs:
+    - shape
+    - shapeMode
+- category: Math
+  subcats:
+  - name: null
+    slugs:
+    - PVector
+  - name: Calculation
+    slugs:
+    - abs
+    - ceil
+    - constrain
+    - dist
+    - exp
+    - floor
+    - lerp
+    - log
+    - mag
+    - map
+    - max
+    - min
+    - norm
+    - pow
+    - round
+    - sq
+    - sqrt
+  - name: Trigonometry
+    slugs:
+    - acos
+    - asin
+    - atan2
+    - atan
+    - cos
+    - degrees
+    - radians
+    - sin
+    - tan
+  - name: Random
+    slugs:
+    - noise
+    - noiseDetail
+    - noiseSeed
+    - randomGaussian
+    - randomSeed
+    - random
+- category: Output
+  subcats:
+  - name: Files
+    slugs:
+    - PrintWriter_class
+    - createOutput
+    - createWriter
+    - saveBytes
+    - saveJSONArray
+    - saveJSONObject
+    - saveStrings
+    - saveTable
+    - saveXML
+    - selectOutput
+  - name: Text Area
+    slugs:
+    - print
+    - printArray
+    - println
+  - name: Image
+    slugs:
+    - save
+    - saveFrame
+- category: Color
+  subcats:
+  - name: Creating & Reading
+    slugs:
+    - alpha
+    - blue
+    - brightness
+    - color_fn
+    - green
+    - hue
+    - lerpColor
+    - red
+    - saturation
+  - name: Setting
+    slugs:
+    - background
+    - clear
+    - colorMode
+    - fill
+    - noFill
+    - noStroke
+    - stroke
+- category: Lights Camera
+  subcats:
+  - name: Lights
+    slugs:
+    - ambientLight
+    - directionalLight
+    - lightFalloff
+    - lightSpecular
+    - lights
+    - noLights
+    - normal
+    - pointLight
+    - spotLight
+  - name: Material Properties
+    slugs:
+    - ambient
+    - emissive
+    - shininess
+    - specular
+  - name: Camera
+    slugs:
+    - beginCamera
+    - camera
+    - endCamera
+    - frustum
+    - ortho
+    - perspective
+    - printCamera
+    - printProjection
+  - name: Coordinates
+    slugs:
+    - modelX
+    - modelY
+    - modelZ
+    - screenX
+    - screenY
+    - screenZ
+- category: Transform
+  subcats:
+  - name: null
+    slugs:
+    - applyMatrix
+    - popMatrix
+    - printMatrix
+    - pushMatrix
+    - resetMatrix
+    - rotateX
+    - rotateY
+    - rotateZ
+    - rotate
+    - scale
+    - shearX
+    - shearY
+    - translate
+- category: Structure
+  subcats:
+  - name: null
+    slugs:
+    - draw
+    - exit
+    - loop
+    - noLoop
+    - pop
+    - popMatrix
+    - popStyle
+    - push
+    - pushMatrix
+    - pushStyle
+    - redraw
+    - setup
+    - thread
+    - delay
+- category: Environment
+  subcats:
+  - name: null
+    slugs:
+    - cursor
+    - displayHeight
+    - displayWidth
+    - focused
+    - frameCount
+    - frameRate_var
+    - frameRate_fn
+    - fullScreen
+    - height
+    - hint
+    - noCursor
+    - noSmooth
+    - pixelDensity
+    - pixelHeight
+    - pixelWidth
+    - size
+    - smooth
+    - width
+    - windowMoved
+    - windowResizable
+    - windowResize
+    - windowResized
+    - windowTitle
+entries:
+- slug: BufferedReader_class
+  name: BufferedReader
+  cat_tag: Data / Composite
+  description: Reads text from a file line by line. Create with createReader(). Close when done.
+  related:
+  - createReader
+  - loadStrings
+  syntax: local x = BufferedReader(...)
+  params: []
+  returns: BufferedReader
+  methods:
+  - sig: :readLine()
+    desc: Reads and returns the next line as a string. Returns empty string at EOF.
+  - sig: :close()
+    desc: Closes the file
+  uth: []
+- slug: HashMap_class
+  name: HashMap
+  cat_tag: Data / Composite
+  description: A templated key-value map. In Lua Mode, map and unordered_map from the standard library are often more idiomatic, but HashMap is available for Processing Java compatibility.
+  related: []
+  syntax: local x = HashMap(...)
+  params: []
+  returns: HashMap
+  methods:
+  - sig: :get(k)
+    desc: Returns reference to value for key
+  - sig: :remove(k)
+    desc: Removes a key-value pair
+  - sig: :size()
+    desc: Returns number of entries
+  - sig: :clear()
+    desc: Removes all entries
+  - sig: :values()
+    desc: Returns a vector of all values
+  uth: []
+- slug: PFont_class
+  name: PFont
+  cat_tag: Data / Composite
+  description: Datatype for storing fonts. Load with loadFont() or create with createFont().
+  related:
+  - loadFont
+  - createFont
+  - textFont
+  syntax: local font = createFont("name", size)
+  params: []
+  returns: PFont
+  methods: []
+  uth: []
+- slug: PGraphics_class
+  name: PGraphics
+  cat_tag: Data / Composite
+  description: An off-screen graphics buffer. Create with createGraphics(). Draw into it with beginDraw()/endDraw(), then display with image().
+  related:
+  - createGraphics
+  - image
+  syntax: local pg = createGraphics(w, h)
+  params: []
+  returns: PGraphics
+  methods:
+  - sig: :beginDraw()
+    desc: Start drawing to the buffer
+  - sig: :endDraw()
+    desc: Stop drawing to the buffer
+  - sig: :background(r, g, b)
+    desc: Clear the buffer
+  - sig: :fill(r, g, b)
+    desc: Set fill color
+  - sig: :stroke(r, g, b)
+    desc: Set stroke color
+  - sig: :ellipse(x, y, w, h)
+    desc: Draw ellipse
+  - sig: :rect(x, y, w, h)
+    desc: Draw rectangle
+  uth: []
+- slug: PImage_class
+  name: PImage
+  cat_tag: Data / Composite
+  description: Datatype for storing and manipulating images. Load with loadImage() or create with createImage().
+  related:
+  - loadImage
+  - createImage
+  - image
+  syntax: local img = loadImage("file.png")
+  params: []
+  returns: PImage
+  methods:
+  - sig: :loadPixels()
+    desc: Load pixel data into pixels[]
+  - sig: :updatePixels()
+    desc: Update image from pixels[]
+  - sig: :get(x, y)
+    desc: Get pixel color at position
+  - sig: :set(x, y, c)
+    desc: Set pixel color at position
+  - sig: :resize(w, h)
+    desc: Resize the image
+  - sig: :filter(mode)
+    desc: Apply an image filter
+  - sig: :mask(m)
+    desc: Apply an alpha mask
+  uth: []
+- slug: PShader_class
+  name: PShader
+  cat_tag: Data / Composite
+  description: Datatype for GLSL shaders. Load with loadShader() and apply with shader().
+  related:
+  - loadShader
+  - shader_fn
+  - resetShader
+  syntax: local x = PShader(...)
+  params: []
+  returns: PShader
+  methods:
+  - sig: :set(name, v)
+    desc: Set a uniform float
+  - sig: :set(name, v)
+    desc: Set a uniform int
+  - sig: :set(name, x, y)
+    desc: Set a uniform vec2
+  - sig: :set(name, x, y, z)
+    desc: Set a uniform vec3
+  uth: []
+- slug: PShape_class
+  name: PShape
+  cat_tag: Data / Composite
+  description: Datatype for storing shapes. Load with loadShape() or build programmatically with createShape().
+  related:
+  - loadShape
+  - createShape
+  - shape
+  syntax: local s = loadShape("file.svg")  -- or createShape()
+  params: []
+  returns: PShape
+  methods:
+  - sig: :getChild(i)
+    desc: Get child shape by index
+  - sig: :getChild(name)
+    desc: Get child shape by name/id
+  - sig: :getChildCount()
+    desc: Number of children
+  - sig: :getVertex(i)
+    desc: Get vertex by index as PVector
+  - sig: :getVertexCount()
+    desc: Number of vertices
+  - sig: :setVertex(i, x, y)
+    desc: Set vertex position
+  - sig: :disableStyle()
+    desc: Ignore the shape's own fill/stroke
+  - sig: :enableStyle()
+    desc: Use the shape's own fill/stroke
+  - sig: :setFill(r, g, b)
+    desc: Set fill color
+  - sig: :setStroke(r, g, b)
+    desc: Set stroke color
+  uth: []
+- slug: PVector
+  name: PVector
+  cat_tag: Data / Composite
+  description: A class to describe a two or three dimensional vector. Commonly used to represent position, velocity, or direction.
+  related: []
+  syntax: local v = createVector(x, y)
+  params: []
+  returns: PVector
+  methods:
+  - sig: :mag()
+    desc: Magnitude (length) of the vector
+  - sig: :magSq()
+    desc: Magnitude squared
+  - sig: :add(v)
+    desc: Add another vector
+  - sig: :sub(v)
+    desc: Subtract another vector
+  - sig: :mult(s)
+    desc: Multiply by scalar
+  - sig: :div(s)
+    desc: Divide by scalar
+  - sig: :normalize()
+    desc: Normalize to unit length
+  - sig: :limit(max)
+    desc: Limit the magnitude
+  - sig: :setMag(m)
+    desc: Set the magnitude
+  - sig: :dot(v)
+    desc: Dot product
+  - sig: :cross(v)
+    desc: Cross product
+  - sig: :dist(v)
+    desc: Distance to another vector
+  - sig: :heading()
+    desc: Angle the vector makes with positive x-axis
+  - sig: :angleBetween(v)
+    desc: Angle between two vectors
+  - sig: :lerp(v, t)
+    desc: Interpolate towards another vector
+  - sig: :rotate(angle)
+    desc: Rotate by an angle (2D)
+  - sig: :copy()
+    desc: Return a copy
+  - sig: :toString()
+    desc: String representation
+  uth: []
+- slug: PrintWriter_class
+  name: PrintWriter
+  cat_tag: Data / Composite
+  description: Writes text to a file. Create with createWriter(). Always call close() or flush() when done.
+  related:
+  - createWriter
+  - saveStrings
+  syntax: local x = PrintWriter(...)
+  params: []
+  returns: PrintWriter
+  methods:
+  - sig: :print(v)
+    desc: Writes a value without a newline
+  - sig: :println(v)
+    desc: Writes a value followed by a newline
+  - sig: :println()
+    desc: Writes a blank line
+  - sig: :flush()
+    desc: Flushes the buffer to disk
+  - sig: :close()
+    desc: Closes the file
+  uth: []
+- slug: TableRow_class
+  name: TableRow
+  cat_tag: Data / Composite
+  description: Represents a single row in a Table. Access values by column index or name.
+  related:
+  - Table_class
+  - loadTable
+  syntax: for row in t:rows() do ... end
+  params: []
+  returns: TableRow
+  methods:
+  - sig: :getString(i)
+    desc: Gets value at column index as string
+  - sig: :getString(col)
+    desc: Gets value by column name as string
+  - sig: :getInt(i)
+    desc: Gets value at column index as int
+  - sig: :getFloat(i)
+    desc: Gets value at column index as float
+  - sig: :setString(i, v)
+    desc: Sets value at column index
+  - sig: :setInt(i, v)
+    desc: Sets value as int
+  - sig: :setFloat(i, v)
+    desc: Sets value as float
+  uth: []
+- slug: Table_class
+  name: Table
+  cat_tag: Data / Composite
+  description: Stores data in rows and columns like a spreadsheet. Load with loadTable(). Column names are set by the header row.
+  related:
+  - loadTable
+  - saveTable
+  - TableRow_class
+  syntax: local t = loadTable("data.csv", "header")
+  params: []
+  returns: Table
+  methods:
+  - sig: :addColumn(name)
+    desc: Adds a column
+  - sig: :addRow()
+    desc: Adds a new row, returns reference
+  - sig: :getRowCount()
+    desc: Returns number of rows
+  - sig: :getColumnCount()
+    desc: Returns number of columns
+  - sig: :getString(row, col)
+    desc: Gets a cell value as string
+  - sig: :getString(row, col)
+    desc: Gets a cell value by column name
+  - sig: :getInt(row, col)
+    desc: Gets a cell value as int
+  - sig: :getFloat(row, col)
+    desc: Gets a cell value as float
+  - sig: :setString(row, col, v)
+    desc: Sets a cell value
+  - sig: :setInt(row, col, v)
+    desc: Sets a cell value as int
+  - sig: :setFloat(row, col, v)
+    desc: Sets a cell value as float
+  - sig: :removeRow(i)
+    desc: Removes a row
+  - sig: :clearRows()
+    desc: Removes all rows
+  - sig: :getColumnIndex(name)
+    desc: Returns index of a column by name
+  uth: []
+- slug: XML_class
+  name: XML
+  cat_tag: Data / Composite
+  description: Represents an XML element. Load with loadXML() or parseXML(). Access children and attributes by name.
+  related:
+  - loadXML
+  - parseXML
+  - saveXML
+  syntax: local x = loadXML("data.xml")
+  params: []
+  returns: XML
+  methods:
+  - sig: :getName()
+    desc: Returns the name of the element
+  - sig: :getContent()
+    desc: Returns the text content of the element
+  - sig: :setContent(c)
+    desc: Sets the text content
+  - sig: :addChild(name)
+    desc: Adds a child element
+  - sig: :getChild(i)
+    desc: Gets child by index
+  - sig: :getChild(name)
+    desc: Gets child by tag name
+  - sig: :getChildCount()
+    desc: Returns number of children
+  - sig: :getChildren(name)
+    desc: Returns all children with given tag name
+  uth: []
+- slug: append
+  name: append()
+  cat_tag: Data / Array Functions
+  description: Expands a vector by one element and adds value to the end.
+  related:
+  - concat
+  - expand
+  - shorten
+  syntax: append(arr, val)
+  params:
+  - name: arr
+    type: table
+    desc: the vector to expand
+  - name: val
+    type: any
+    desc: the value to add
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - function append(list, v) local t = {} for i, x in ipairs(list) do t[i] = x end t[#t + 1] = v return t end
+- slug: arrayCopy
+  name: arrayCopy()
+  cat_tag: Data / Array Functions
+  description: Copies the contents of one vector into another.
+  related:
+  - concat
+  - subset
+  syntax: arrayCopy(src, dst)
+  params:
+  - name: src
+    type: table
+    desc: source vector
+  - name: dst
+    type: table
+    desc: destination vector
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "function arrayCopy(src, a, b, c, d)\n  if b == nil then for i, x in ipairs(src) do a[i] = x end return end   -- arrayCopy(src, dst)\n  if c == nil then for i = 1, b do a[i] = src[i] end return end           -- arrayCopy(src, dst, n)\n  for i = 0, d - 1 do b[c + i] = src[a + i] end                          -- arrayCopy(src, from, dst, to, n)\nend"
+- slug: concat
+  name: concat()
+  cat_tag: Data / Array Functions
+  description: Concatenates two vectors.
+  related:
+  - append
+  - splice
+  syntax: concat(a, b)
+  params:
+  - name: a
+    type: table
+    desc: first vector
+  - name: b
+    type: table
+    desc: second vector
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - function concat(a, b) local t = {} for _, x in ipairs(a) do t[#t + 1] = x end for _, x in ipairs(b) do t[#t + 1] = x end return t end
+- slug: expand
+  name: expand()
+  cat_tag: Data / Array Functions
+  description: Increases the size of a vector. With no second argument, doubles the size.
+  related:
+  - append
+  - shorten
+  syntax: 'expand(arr)
+
+    expand(arr, n)'
+  params:
+  - name: arr
+    type: table
+    desc: the vector to expand
+  - name: n
+    type: number
+    desc: new size (optional, default doubles)
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - function expand(list, n) local t = {} for i, x in ipairs(list) do t[i] = x end return t end
+- slug: reverse_arr
+  name: reverse()
+  cat_tag: Data / Array Functions
+  description: Reverses the order of a vector.
+  related:
+  - sort_arr
+  syntax: reverse(arr)
+  params:
+  - name: arr
+    type: table
+    desc: the vector to reverse
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - 'function reverse(list) local t = {} for i = #list, 1, -1 do t[#t + 1] = list[i] end return t end'
+- slug: shorten
+  name: shorten()
+  cat_tag: Data / Array Functions
+  description: Decreases a vector by one element. Removes the last element.
+  related:
+  - append
+  - expand
+  syntax: shorten(arr)
+  params:
+  - name: arr
+    type: table
+    desc: the vector to shorten
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - 'function shorten(list) local t = {} for i = 1, #list - 1 do t[i] = list[i] end return t end'
+- slug: sort_arr
+  name: sort()
+  cat_tag: Data / Array Functions
+  description: Sorts a vector in ascending order.
+  related:
+  - reverse_arr
+  syntax: sort(arr)
+  params:
+  - name: arr
+    type: table
+    desc: the vector to sort
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - "function sort(list, n)\n  local t = {} for i, x in ipairs(list) do t[i] = x end\n  if n and n < #t then\n    local head = subset(t, 1, n) table.sort(head)\n    for i = 1, n do t[i] = head[i] end\n    return t\n  end\n  table.sort(t)\n  return t\nend"
+- slug: splice
+  name: splice()
+  cat_tag: Data / Array Functions
+  description: Inserts a value or vector of values into an existing vector at the given index.
+  related:
+  - concat
+  - append
+  syntax: splice(arr, val, i)
+  params:
+  - name: arr
+    type: table
+    desc: the source vector
+  - name: val
+    type: any
+    desc: value to insert
+  - name: i
+    type: number
+    desc: position to insert at
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - "function splice(list, v, at)\n  local t = {}\n  for i = 1, at - 1 do t[#t + 1] = list[i] end\n  if type(v) == \"table\" then for _, x in ipairs(v) do t[#t + 1] = x end else t[#t + 1] = v end\n  for i = at, #list do t[#t + 1] = list[i] end\n  return t\nend"
+- slug: subset
+  name: subset()
+  cat_tag: Data / Array Functions
+  description: Extracts an array of elements from an existing vector.
+  related:
+  - splice
+  - append
+  syntax: 'subset(arr, start)
+
+    subset(arr, start, count)'
+  params:
+  - name: arr
+    type: table
+    desc: the source vector
+  - name: start
+    type: number
+    desc: starting index
+  - name: count
+    type: number
+    desc: number of elements (optional)
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - "function subset(list, start, count)\n  local t = {}\n  local stop = count and (start + count - 1) or #list\n  for i = start, math.min(stop, #list) do t[#t + 1] = list[i] end\n  return t\nend"
+- slug: binary
+  name: binary()
+  cat_tag: Data / Conversion
+  description: Converts an integer to a binary string representation (32 characters).
+  related:
+  - unbinary
+  - hex
+  syntax: binary(v)
+  params:
+  - name: v
+    type: number
+    desc: value to convert
+  returns: string
+  uth:
+  - - runner/src/prelude.lua
+    - "function binary(n, digits)\n  if math.type(n) ~= \"integer\" then n = math.floor(n) end\n  n = n & 0xFFFFFFFF\n  local s = \"\"\n  repeat s = (n & 1) .. s n = n >> 1 until n == 0\n  if digits and #s < digits then s = string.rep(\"0\", digits - #s) .. s end\n  if digits and #s > digits then s = s:sub(-digits) end\n  return s\nend"
+- slug: hex
+  name: hex()
+  cat_tag: Data / Conversion
+  description: Converts an integer to a hexadecimal string.
+  related:
+  - unhex
+  - binary
+  syntax: 'hex(v)
+
+    hex(v, digits)'
+  params:
+  - name: v
+    type: number
+    desc: value to convert
+  - name: digits
+    type: number
+    desc: number of digits (optional)
+  returns: string
+  uth:
+  - - runner/src/prelude.lua
+    - "-- ── Numbers as text ───────────────────────────────────────────────────────\n-- hex(255) -> \"FF\", hex(255, 6) -> \"0000FF\", unhex(\"FF\") -> 255\nfunction hex(n, digits)\n  if math.type(n) ~= \"integer\" then n = math.floor(n) end\n  local s = string.format(\"%X\", n & 0xFFFFFFFF)\n  if digits and #s < digits then s = string.rep(\"0\", digits - #s) .. s end\n  if digits and #s > digits then s = s:sub(-digits) end\n  return s\nend"
+- slug: str
+  name: str()
+  cat_tag: Data / Conversion
+  description: Converts an int, float, bool, or char to a a string.
+  related:
+  - trim
+  - split
+  - join
+  syntax: str(v)
+  params:
+  - name: v
+    type: any
+    desc: value to convert
+  returns: string
+  uth:
+  - - runner/src/prelude.lua
+    - function str(v) return tostring(v) end
+  - - runner/src/prelude.lua
+    - local function str(v) if v == nil then return nil end if type(v) == "table" then return toJSON(v) end return tostring(v) end
+- slug: unbinary
+  name: unbinary()
+  cat_tag: Data / Conversion
+  description: Converts a binary string to an integer.
+  related:
+  - binary
+  syntax: unbinary(s)
+  params:
+  - name: s
+    type: string
+    desc: binary string
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function unbinary(s) return tonumber(tostring(s), 2) or 0 end
+- slug: unhex
+  name: unhex()
+  cat_tag: Data / Conversion
+  description: Converts a hexadecimal string to an integer.
+  related:
+  - hex
+  syntax: unhex(s)
+  params:
+  - name: s
+    type: string
+    desc: hex string
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function unhex(s) return tonumber(tostring(s), 16) or 0 end
+- slug: color_type
+  name: color
+  cat_tag: Data / Primitive
+  description: Datatype for storing color values. Internally a 32-bit packed ARGB integer. Created with the color() function. Compatible with unsigned int.
+  related:
+  - color_fn
+  - fill
+  - stroke
+  syntax: color
+  params: []
+  returns: color
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"color\", lua.create_function(|_, args: LuaMultiValue| {\n    Ok(pack_color(unpack_color(args)))\n})?)?;"
+- slug: join
+  name: join()
+  cat_tag: Data / String Functions
+  description: Combines a vector of strings into one string using a separator.
+  related:
+  - split
+  - splitTokens
+  syntax: join(v, sep)
+  params:
+  - name: v
+    type: table
+    desc: the strings to join
+  - name: sep
+    type: string
+    desc: separator string
+  returns: string
+  uth:
+  - - runner/src/prelude.lua
+    - function join(list, sep) return table.concat(list, sep or "") end
+- slug: matchAll
+  name: matchAll()
+  cat_tag: Data / String Functions
+  description: Uses a regular expression to find all matches in a string.
+  related:
+  - match
+  syntax: matchAll(s, pattern)
+  params:
+  - name: s
+    type: string
+    desc: the string to search
+  - name: pattern
+    type: string
+    desc: regular expression pattern
+  returns: table
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"matchAll\", lua.create_function(|lua, (text, pat): (LuaString, LuaString)| {\n    let all = engine::match_all(&text.to_string_lossy(), &pat.to_string_lossy());\n    if all.is_empty() { return Ok(LuaValue::Nil); }\n    let t = lua.create_table()?;\n    for (i, m) in all.into_iter().enumerate() { t.set(i + 1, lua.create_sequence_from(m)?)?; }\n    Ok(LuaValue::Table(t))\n})?)?;"
+- slug: match
+  name: match()
+  cat_tag: Data / String Functions
+  description: Uses a regular expression to match a string. Returns a vector of matches.
+  related:
+  - matchAll
+  syntax: match(s, pattern)
+  params:
+  - name: s
+    type: string
+    desc: the string to search
+  - name: pattern
+    type: string
+    desc: regular expression pattern
+  returns: table
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"match\", lua.create_function(|lua, (text, pat): (LuaString, LuaString)| {\n    match engine::match_re(&text.to_string_lossy(), &pat.to_string_lossy()) {\n        Some(v) => Ok(LuaValue::Table(lua.create_sequence_from(v)?)),\n        None => Ok(LuaValue::Nil),\n    }\n})?)?;"
+- slug: nf
+  name: nf()
+  cat_tag: Data / String Functions
+  description: Formats a number as a string with a specified number of digits.
+  related: []
+  syntax: 'nf(v, digits)
+
+    nf(v, left, right)'
+  params:
+  - name: v
+    type: number
+    desc: the number to format
+  - name: digits
+    type: number
+    desc: number of decimal places or left digits
+  returns: string
+  uth:
+  - - runner/src/prelude.lua
+    - "-- nf(7, 3) -> \"007\"; nf(3.14159, 1, 2) -> \"3.14\"\nfunction nf(n, left, right)\n  if type(n) ~= \"number\" then error(\"nf() expects a number\", 2) end\n  local neg = n < 0\n  local s\n  if right then s = string.format(\"%.\" .. right .. \"f\", math.abs(n))\n  else s = tostring(math.floor(math.abs(n) + 0.5)) end\n  local whole = s:match(\"^%d+\")\n  if left and #whole < left then s = string.rep(\"0\", left - #whole) .. s end\n  return (neg and \"-\" or \"\") .. s\nend"
+- slug: split
+  name: split()
+  cat_tag: Data / String Functions
+  description: Splits a string into substrings using a delimiter character.
+  related:
+  - splitTokens
+  - join
+  - trim
+  syntax: split(s, d)
+  params:
+  - name: s
+    type: string
+    desc: the string to split
+  - name: d
+    type: string
+    desc: delimiter character
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - "-- split(\"a,b,c\", \",\") -> {\"a\", \"b\", \"c\"}; the separator is plain text\nfunction split(s, sep)\n  local out, from = {}, 1\n  s, sep = tostring(s), tostring(sep or \" \")\n  if sep == \"\" then\n    for i = 1, #s do out[i] = s:sub(i, i) end\n    return out\n  end\n  while true do\n    local a, b = s:find(sep, from, true)\n    if not a then out[#out + 1] = s:sub(from) break end\n    out[#out + 1] = s:sub(from, a - 1)\n    from = b + 1\n  end\n  return out\nend"
+- slug: splitTokens
+  name: splitTokens()
+  cat_tag: Data / String Functions
+  description: Splits a string into substrings using any character in the delimiters string.
+  related:
+  - split
+  - join
+  syntax: splitTokens(s, delims)
+  params:
+  - name: s
+    type: string
+    desc: the string to split
+  - name: delims
+    type: string
+    desc: string of delimiter characters
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - "-- splitTokens(\"a, b  c\", \", \") -> {\"a\", \"b\", \"c\"}: split on any of the characters, no empty pieces\nfunction splitTokens(s, delims)\n  delims = delims or \" \\t\\n\\r\\f\"\n  local out = {}\n  local class = \"[^\" .. delims:gsub(\"[%]%^%-%%]\", \"%%%0\") .. \"]+\"\n  for piece in tostring(s):gmatch(class) do out[#out + 1] = piece end\n  return out\nend"
+- slug: trim
+  name: trim()
+  cat_tag: Data / String Functions
+  description: Removes whitespace characters from the beginning and end of a string.
+  related:
+  - split
+  - join
+  syntax: trim(s)
+  params:
+  - name: s
+    type: string
+    desc: string to trim
+  returns: string
+  uth:
+  - - runner/src/prelude.lua
+    - function trim(s) return (tostring(s):gsub("^%s+", ""):gsub("%s+$", "")) end
+- slug: createInput
+  name: createInput()
+  cat_tag: Input / Files
+  description: Opens a file for binary reading. Returns a ifstream handle.
+  related:
+  - loadBytes
+  - createOutput
+  syntax: createInput(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the file
+  returns: std::ifstream
+  uth:
+  - - runner/src/prelude.lua
+    - "-- createInput(\"file\") / createOutput(\"file\"): a file to read or write bytes\n-- with :read / :write / :close (Lua's own file object). Looked for as given,\n-- then in data/.\nfunction createInput(path)\n  local f = io.open(path, \"rb\") or io.open(\"data/\" .. path, \"rb\")\n  if not f then io.stderr:write(\"createInput: could not open \" .. tostring(path) .. \"\\n\") end\n  return f\nend"
+- slug: createReader
+  name: createReader()
+  cat_tag: Input / Files
+  description: Creates a BufferedReader object for reading text from a file line by line.
+  related:
+  - BufferedReader_class
+  - loadStrings
+  syntax: createReader(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the file
+  returns: BufferedReader
+  uth:
+  - - runner/src/prelude.lua
+    - "function createReader(path)\n  local f = io.open(path, \"r\") or io.open(\"data/\" .. tostring(path), \"r\")\n  if not f then io.stderr:write(\"createReader: could not open \" .. tostring(path) .. \"\\n\") end\n  return setmetatable({ f = f }, Reader)\nend"
+- slug: launch
+  name: launch()
+  cat_tag: Input / Files
+  description: Opens a file, URL, or application using the operating system's default handler.
+  related: []
+  syntax: launch(path)
+  params:
+  - name: path
+    type: string
+    desc: path, URL, or application to launch
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"launch\", lua.create_function(|_, args: LuaMultiValue| {\n    let mut v: Vec<String> = Vec::new();\n    for a in args.iter() {\n        match a {\n            LuaValue::Table(t) => for s in t.clone().sequence_values::<String>() { v.push(s?); },\n            other => v.push(other.to_string()?),\n        }\n    }\n    let refs: Vec<&str> = v.iter().map(|s| s.as_str()).collect();\n    Ok(engine::launch(&refs))\n})?)?;"
+- slug: loadBytes
+  name: loadBytes()
+  cat_tag: Input / Files
+  description: Reads the contents of a file into a vector of bytes.
+  related:
+  - saveBytes
+  - loadStrings
+  syntax: loadBytes(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the file
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - "-- ── bytes and conversions ─────────────────────────────────────────────────\n-- loadBytes(\"file\") -> a list of numbers 0..255 (nil if it can't be read)\nfunction loadBytes(path)\n  local f = io.open(path, \"rb\") or io.open(\"data/\" .. path, \"rb\")\n  if not f then io.stderr:write(\"loadBytes: could not read \" .. tostring(path) .. \"\\n\") return nil end\n  local s = f:read(\"a\") f:close()\n  local t = {}\n  for i = 1, #s do t[i] = s:byte(i) end\n  return t\nend"
+- slug: loadJSONArray
+  name: loadJSONArray()
+  cat_tag: Input / Files
+  description: Loads a JSON array file and returns a JSONValue.
+  related:
+  - saveJSONArray
+  - loadJSONObject
+  syntax: loadJSONArray(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the JSON file
+  returns: JSONValue
+  uth:
+  - - runner/src/prelude.lua
+    - function loadJSONArray(path) local v = loadJSON(path) if isArray(v) then return v end return nil end
+- slug: loadJSONObject
+  name: loadJSONObject()
+  cat_tag: Input / Files
+  description: Loads a JSON file and returns a JSONValue object.
+  related:
+  - saveJSONObject
+  - loadJSONArray
+  syntax: loadJSONObject(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the JSON file
+  returns: JSONValue
+  uth:
+  - - runner/src/prelude.lua
+    - function loadJSONObject(path) local v = loadJSON(path) if type(v) == "table" and not isArray(v) then return v end return nil end
+- slug: loadStrings
+  name: loadStrings()
+  cat_tag: Input / Files
+  description: Reads the contents of a file and creates a vector of strings, one per line.
+  related:
+  - saveStrings
+  - loadBytes
+  syntax: loadStrings(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the file
+  returns: table
+  uth:
+  - - runner/src/prelude.lua
+    - "-- loadStrings(\"notes.txt\") -> a list of lines, or nil if the file can't be read\nfunction loadStrings(path)\n  local f = io.open(path, \"r\") or io.open(\"data/\" .. tostring(path), \"r\")\n  if not f then\n    io.stderr:write(\"loadStrings: could not open \" .. tostring(path) .. \"\\n\")\n    return nil\n  end\n  local lines = {}\n  for line in f:lines() do lines[#lines + 1] = (line:gsub(\"\\r$\", \"\")) end\n  f:close()\n  return lines\nend"
+- slug: loadTable
+  name: loadTable()
+  cat_tag: Input / Files
+  description: Loads a CSV or TSV file into a Table object.
+  related:
+  - saveTable
+  syntax: loadTable(path, options)
+  params:
+  - name: path
+    type: string
+    desc: path to the file
+  - name: options
+    type: string
+    desc: '"header" to treat first row as column names'
+  returns: Table
+  uth:
+  - - runner/src/prelude.lua
+    - "function loadTable(path, opts)\n  local f = io.open(path, \"rb\")\n  if not f then\n    f = io.open(\"data/\" .. tostring(path), \"rb\")\n    if not f then\n      io.stderr:write(\"loadTable: could not open \" .. tostring(path) .. \"\\n\")\n      return nil\n    end\n  end\n  local text = f:read(\"a\"):gsub(\"^\\xEF\\xBB\\xBF\", \"\")\n  f:close()\n  local header, sep = options(opts, path)\n  local t = createTable()\n  t.header = header\n  local pos, len = 1, #text\n  local first = true\n  while pos <= len do\n    local fields\n    fields, pos = record(text, pos, sep)\n    if first and header then\n      for i, title in ipairs(fields) do t.titles[i - 1] = title if t.index[title] == nil then t.index[title] = i - 1 end end\n      if #fields > t.columns then t.columns = #fields end\n    elseif not (#fields == 1 and fields[1] == \"\") then      -- skip blank lines\n      local row = {}\n      for i, v in ipairs(fields) do row[i - 1] = v end\n      t.data[t.count] = row\n      t.count\
+      \ = t.count + 1\n      if #fields > t.columns then t.columns = #fields end\n    end\n    first = false\n  end\n  return t\nend"
+- slug: loadXML
+  name: loadXML()
+  cat_tag: Input / Files
+  description: Loads an XML file and returns an XML object.
+  related:
+  - saveXML
+  - parseXML
+  syntax: loadXML(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the XML file
+  returns: XML
+  uth:
+  - - runner/src/prelude.lua
+    - "function loadXML(path)\n  local lines = loadStrings(path)\n  if not lines then io.stderr:write(\"loadXML: could not open \" .. tostring(path) .. \"\\n\") return nil end\n  local t, why = parse(table.concat(lines, \"\\n\"))\n  if not t then io.stderr:write(\"loadXML: \" .. tostring(path) .. \": \" .. tostring(why) .. \"\\n\") return nil end\n  return wrap(t)\nend"
+- slug: parseJSONArray
+  name: parseJSONArray()
+  cat_tag: Input / Files
+  description: Parses a JSON array string and returns a JSONValue.
+  related:
+  - loadJSONArray
+  - saveJSONArray
+  syntax: parseJSONArray(s)
+  params:
+  - name: s
+    type: string
+    desc: JSON array string to parse
+  returns: JSONValue
+  uth:
+  - - runner/src/prelude.lua
+    - function parseJSONArray(text) local ok, v = pcall(parseJSON, text) if ok and isArray(v) then return v end return nil end
+- slug: parseJSONObject
+  name: parseJSONObject()
+  cat_tag: Input / Files
+  description: Parses a JSON string and returns a JSONValue object.
+  related:
+  - loadJSONObject
+  - saveJSONObject
+  syntax: parseJSONObject(s)
+  params:
+  - name: s
+    type: string
+    desc: JSON string to parse
+  returns: JSONValue
+  uth:
+  - - runner/src/prelude.lua
+    - function parseJSONObject(text) local ok, v = pcall(parseJSON, text) if ok and type(v) == "table" and not isArray(v) then return v end return nil end
+- slug: parseXML
+  name: parseXML()
+  cat_tag: Input / Files
+  description: Parses an XML string and returns an XML object.
+  related:
+  - loadXML
+  - saveXML
+  - XML_class
+  syntax: parseXML(src)
+  params:
+  - name: src
+    type: string
+    desc: XML string to parse
+  returns: XML
+  uth:
+  - - runner/src/prelude.lua
+    - "function parseXML(text)\n  local t, why = parse(tostring(text))\n  if not t then io.stderr:write(\"parseXML: \" .. tostring(why) .. \"\\n\") return nil end\n  return wrap(t)\nend"
+- slug: selectFolder
+  name: selectFolder()
+  cat_tag: Input / Files
+  description: Opens a folder chooser dialog. Returns the selected folder path.
+  related:
+  - selectInput
+  - selectOutput
+  syntax: selectFolder(prompt)
+  params:
+  - name: prompt
+    type: string
+    desc: dialog message
+  returns: string
+  uth: []
+- slug: selectInput
+  name: selectInput()
+  cat_tag: Input / Files
+  description: Opens a file chooser dialog to select an input file. Returns the selected path.
+  related:
+  - selectOutput
+  - selectFolder
+  syntax: selectInput(prompt, filter)
+  params:
+  - name: prompt
+    type: string
+    desc: dialog message
+  - name: filter
+    type: string
+    desc: file extension filter (optional)
+  returns: string
+  uth: []
+- slug: day
+  name: day()
+  cat_tag: Input / Time & Date
+  description: Returns the current day as a value from 1 to 31.
+  related:
+  - month
+  - year
+  syntax: day()
+  params: []
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function day()    return os.date("*t").day   end
+- slug: hour
+  name: hour()
+  cat_tag: Input / Time & Date
+  description: Returns the current hour as a value from 0 to 23.
+  related:
+  - minute
+  - second
+  syntax: hour()
+  params: []
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function hour()   return os.date("*t").hour  end
+- slug: millis
+  name: millis()
+  cat_tag: Input / Time & Date
+  description: Returns the number of milliseconds since the sketch started.
+  related:
+  - second
+  - minute
+  - hour
+  - frameCount
+  syntax: millis()
+  params: []
+  returns: unsigned long
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"millis\", lua.create_function(|_, ()| {\n    Ok(processing::millis())\n})?)?;"
+- slug: minute
+  name: minute()
+  cat_tag: Input / Time & Date
+  description: Returns the current minute as a value from 0 to 59.
+  related:
+  - second
+  - hour
+  syntax: minute()
+  params: []
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function minute() return os.date("*t").min   end
+- slug: month
+  name: month()
+  cat_tag: Input / Time & Date
+  description: Returns the current month as a value from 1 to 12.
+  related:
+  - day
+  - year
+  syntax: month()
+  params: []
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function month()  return os.date("*t").month end
+- slug: second
+  name: second()
+  cat_tag: Input / Time & Date
+  description: Returns the current second as a value from 0 to 59.
+  related:
+  - minute
+  - hour
+  - millis
+  syntax: second()
+  params: []
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function second() return os.date("*t").sec   end
+- slug: year
+  name: year()
+  cat_tag: Input / Time & Date
+  description: Returns the current year as an integer.
+  related:
+  - month
+  - day
+  syntax: year()
+  params: []
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function year()   return os.date("*t").year  end
+- slug: key
+  name: key
+  cat_tag: Input / Keyboard
+  description: The system variable key always contains the value of the most recently pressed key. For special keys, key == CODED and you must use keyCode.
+  related:
+  - keyCode
+  - keyPressed_var
+  - keyPressed_fn
+  syntax: key
+  params: []
+  returns: string
+  uth:
+  - - runner/src/prelude.lua
+    - key, i = decode_string(text, i)
+- slug: keyPressed_var
+  name: keyPressed
+  cat_tag: Input / Keyboard
+  description: The boolean system variable keyPressed is true if any key is pressed.
+  related:
+  - key
+  - keyCode
+  - keyPressed_fn
+  syntax: keyPressed
+  params: []
+  returns: boolean
+  uth:
+  - - runner/src/main.rs
+    - g.set("keyPressed",     false)?;
+- slug: keyCode
+  name: keyCode
+  cat_tag: Input / Keyboard
+  description: 'Used to detect special keys: UP, DOWN, LEFT, RIGHT, ALT, CONTROL, SHIFT, etc. Only valid when key == CODED.'
+  related:
+  - key
+  - keyPressed_fn
+  syntax: keyCode
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("keyCode",       0_i64)?;
+- slug: keyReleased
+  name: keyReleased()
+  cat_tag: Input / Keyboard
+  description: Called once every time a key is released.
+  related:
+  - keyPressed_fn
+  - key
+  syntax: "function keyReleased()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: keyPressed_fn
+  name: keyPressed()
+  cat_tag: Input / Keyboard
+  description: Called once every time a key is pressed.
+  related:
+  - keyReleased
+  - key
+  - keyCode
+  syntax: "function keyPressed()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: keyTyped
+  name: keyTyped()
+  cat_tag: Input / Keyboard
+  description: Called once every time a key is pressed, but action keys such as Ctrl, Shift, and Alt are ignored.
+  related:
+  - keyPressed_fn
+  - key
+  syntax: "function keyTyped()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: mouseButton
+  name: mouseButton
+  cat_tag: Input / Mouse
+  description: 'When mousePressed is true, mouseButton holds which button is pressed: LEFT, RIGHT, or CENTER.'
+  related:
+  - mousePressed_var
+  syntax: mouseButton
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("mouseButton",   0_i64)?;
+- slug: mouseClicked
+  name: mouseClicked()
+  cat_tag: Input / Mouse
+  description: Called after a mouse button is pressed and released.
+  related:
+  - mousePressed_fn
+  - mouseReleased
+  syntax: "function mouseClicked()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: mouseDragged
+  name: mouseDragged()
+  cat_tag: Input / Mouse
+  description: Called once every time the mouse moves while a button is held.
+  related:
+  - mouseMoved
+  syntax: "function mouseDragged()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: mouseMoved
+  name: mouseMoved()
+  cat_tag: Input / Mouse
+  description: Called every time the mouse moves and no button is pressed.
+  related:
+  - mouseDragged
+  syntax: "function mouseMoved()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: mousePressed_var
+  name: mousePressed
+  cat_tag: Input / Mouse
+  description: Variable storing whether any mouse button is currently pressed.
+  related:
+  - mouseX
+  - mouseY
+  - mousePressed_fn
+  - mouseButton
+  syntax: mousePressed
+  params: []
+  returns: boolean
+  uth:
+  - - runner/src/main.rs
+    - g.set("mousePressed",   false)?;
+- slug: mousePressed_fn
+  name: mousePressed()
+  cat_tag: Input / Mouse
+  description: Called once after every time a mouse button is pressed.
+  related:
+  - mouseReleased
+  - mouseClicked
+  - mousePressed_var
+  syntax: "function mousePressed()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: mouseWheel
+  name: mouseWheel()
+  cat_tag: Input / Mouse
+  description: Called when the mouse wheel moves. The count parameter is positive when scrolled down and negative when scrolled up.
+  related:
+  - mouseMoved
+  syntax: "function mouseWheel()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: mouseReleased
+  name: mouseReleased()
+  cat_tag: Input / Mouse
+  description: Called every time a mouse button is released.
+  related:
+  - mousePressed_fn
+  syntax: "function mouseReleased()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: mouseX
+  name: mouseX
+  cat_tag: Input / Mouse
+  description: The system variable mouseX always contains the current horizontal position of the mouse.
+  related:
+  - mouseY
+  - pmouseX
+  - mousePressed_var
+  syntax: mouseX
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("mouseX",        0_i64)?;
+- slug: mouseY
+  name: mouseY
+  cat_tag: Input / Mouse
+  description: The system variable mouseY always contains the current vertical position of the mouse.
+  related:
+  - mouseX
+  - pmouseY
+  - mousePressed_var
+  syntax: mouseY
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("mouseY",        0_i64)?;
+- slug: pmouseX
+  name: pmouseX
+  cat_tag: Input / Mouse
+  description: The horizontal position of the mouse in the previous frame.
+  related:
+  - pmouseY
+  - mouseX
+  syntax: pmouseX
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("pmouseX",       0_i64)?;
+- slug: pmouseY
+  name: pmouseY
+  cat_tag: Input / Mouse
+  description: The vertical position of the mouse in the previous frame.
+  related:
+  - pmouseX
+  - mouseY
+  syntax: pmouseY
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("pmouseY",       0_i64)?;
+- slug: HALF_PI
+  name: HALF_PI
+  cat_tag: Constants
+  description: HALF_PI is a mathematical constant with the value 1.57079632679489661923.
+  related:
+  - PI
+  - TWO_PI
+  - QUARTER_PI
+  syntax: HALF_PI
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("HALF_PI",  PI / 2.0)?;
+- slug: PI
+  name: PI
+  cat_tag: Constants
+  description: PI is a mathematical constant with the value 3.14159265358979323846.
+  related:
+  - TWO_PI
+  - HALF_PI
+  - QUARTER_PI
+  - TAU
+  syntax: PI
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("PI",       PI)?;
+- slug: QUARTER_PI
+  name: QUARTER_PI
+  cat_tag: Constants
+  description: QUARTER_PI is a mathematical constant with the value 0.7853982.
+  related:
+  - PI
+  - HALF_PI
+  syntax: QUARTER_PI
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("QUARTER_PI", PI / 4.0)?;
+- slug: TAU
+  name: TAU
+  cat_tag: Constants
+  description: TAU is an alias for TWO_PI with value 6.28318530717958647693.
+  related:
+  - PI
+  - TWO_PI
+  syntax: TAU
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("TAU",      PI * 2.0)?;
+- slug: TWO_PI
+  name: TWO_PI
+  cat_tag: Constants
+  description: TWO_PI is a mathematical constant with the value 6.28318530717958647693.
+  related:
+  - PI
+  - HALF_PI
+  - TAU
+  syntax: TWO_PI
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("TWO_PI",   PI * 2.0)?;
+- slug: createFont
+  name: createFont()
+  cat_tag: Typography / Loading & Displaying
+  description: Creates a PFont from a system font name and size.
+  related:
+  - loadFont
+  - textFont
+  syntax: createFont(name, size, smooth)
+  params:
+  - name: name
+    type: string
+    desc: font name
+  - name: size
+    type: number
+    desc: font size
+  - name: smooth
+    type: boolean
+    desc: whether to anti-alias (default true)
+  returns: PFont
+  uth:
+  - - runner/src/prelude.lua
+    - function createFont(name, sz) return wrapFont(rawCreate(name, sz)) end
+- slug: loadFont
+  name: loadFont()
+  cat_tag: Typography / Loading & Displaying
+  description: Loads a font from the sketch's data folder. Supports .ttf and .otf files.
+  related:
+  - textFont
+  - createFont
+  syntax: loadFont(filename)
+  params:
+  - name: filename
+    type: string
+    desc: name of the font file
+  returns: PFont
+  uth:
+  - - runner/src/prelude.lua
+    - function loadFont(name) return wrapFont(rawLoad(name)) end
+- slug: textFont
+  name: textFont()
+  cat_tag: Typography / Loading & Displaying
+  description: Sets the current font for text rendering.
+  related:
+  - loadFont
+  - createFont
+  - text
+  syntax: 'textFont(font)
+
+    textFont(font, size)'
+  params:
+  - name: font
+    type: PFont
+    desc: a PFont object
+  - name: size
+    type: number
+    desc: font size (optional)
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "function textFont(f, sz)\n  if math.type(f) == \"integer\" and f > FONT_BASE then f = f - FONT_BASE end\n  return rawTextFont(f, sz)\nend"
+- slug: text
+  name: text()
+  cat_tag: Typography / Loading & Displaying
+  description: Draws text to the screen. With a bounding box (x, y, w, h), text wraps automatically.
+  related:
+  - textSize
+  - textFont
+  - textAlign
+  syntax: 'text(str, x, y)
+
+    text(str, x, y, w, h)'
+  params:
+  - name: str
+    type: string
+    desc: the string to display
+  - name: x
+    type: number
+    desc: x-coordinate
+  - name: y
+    type: number
+    desc: y-coordinate
+  - name: w
+    type: number
+    desc: width of text box (optional)
+  - name: h
+    type: number
+    desc: height of text box (optional)
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - local function text(...) local t = {} for i = 1, select("#", ...) do t[i] = tostring((select(i, ...))) end return table.concat(t, " ") end
+- slug: textAlign
+  name: textAlign()
+  cat_tag: Typography / Attributes
+  description: Sets the alignment for drawing text. The first parameter can be LEFT, CENTER, or RIGHT. The second parameter (optional) can be TOP, BOTTOM, CENTER, or BASELINE.
+  related:
+  - text
+  - textSize
+  syntax: 'textAlign(alignX)
+
+    textAlign(alignX, alignY)'
+  params:
+  - name: alignX
+    type: number
+    desc: LEFT, CENTER, or RIGHT
+  - name: alignY
+    type: number
+    desc: TOP, BOTTOM, CENTER, or BASELINE (optional)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"textAlign\", lua.create_function(|_, (h, v): (i32, Option<i32>)| {\n    processing::text_align(h, v.unwrap_or(processing::BASELINE)); Ok(())\n})?)?;"
+- slug: textLeading
+  name: textLeading()
+  cat_tag: Typography / Attributes
+  description: Sets the spacing between lines of text in units of pixels.
+  related:
+  - text
+  - textSize
+  syntax: textLeading(leading)
+  params:
+  - name: leading
+    type: number
+    desc: spacing between lines
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("textLeading", lua.create_function(|_, px: f32| { processing::text_leading(px); Ok(()) })?)?;'
+- slug: textMode
+  name: textMode()
+  cat_tag: Typography / Attributes
+  description: Sets the way text draws to the screen, either as texture maps or as vector geometry.
+  related:
+  - text
+  syntax: textMode(mode)
+  params:
+  - name: mode
+    type: number
+    desc: MODEL or SHAPE
+  returns: ''
+  uth: []
+- slug: textSize
+  name: textSize()
+  cat_tag: Typography / Attributes
+  description: Sets the current font size. This size will be used in all subsequent calls to text().
+  related:
+  - text
+  - textFont
+  - textWidth
+  syntax: textSize(size)
+  params:
+  - name: size
+    type: number
+    desc: the size of the letters in pixels
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"textSize\", lua.create_function(|_, sz: f32| {\n    processing::text_size(sz); Ok(())\n})?)?;"
+- slug: textWidth
+  name: textWidth()
+  cat_tag: Typography / Attributes
+  description: Calculates and returns the width of any character or text string in the current font.
+  related:
+  - text
+  - textAscent
+  - textDescent
+  syntax: textWidth(s)
+  params:
+  - name: s
+    type: string
+    desc: the string to measure
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"textWidth\", lua.create_function(|_, s: LuaString| {\n    Ok(processing::text_width(&s.to_string_lossy()))\n})?)?;"
+- slug: textAscent
+  name: textAscent()
+  cat_tag: Typography / Metrics
+  description: Returns the ascent of the current font at its current size. The ascent is the height of the character above the baseline.
+  related:
+  - textDescent
+  - textSize
+  syntax: textAscent()
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"textAscent\", lua.create_function(|_, ()| {\n    Ok(processing::text_ascent())\n})?)?;"
+- slug: textDescent
+  name: textDescent()
+  cat_tag: Typography / Metrics
+  description: Returns the descent of the current font at its current size. The descent is the distance below the baseline.
+  related:
+  - textAscent
+  - textSize
+  syntax: textDescent()
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"textDescent\", lua.create_function(|_, ()| {\n    Ok(processing::text_descent())\n})?)?;"
+- slug: blendMode
+  name: blendMode()
+  cat_tag: Rendering
+  description: Blends the pixels in the display window with the pixels underneath using a defined blend mode.
+  related: []
+  syntax: blendMode(mode)
+  params:
+  - name: mode
+    type: number
+    desc: BLEND, ADD, SUBTRACT, MULTIPLY, SCREEN, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("blendMode", lua.create_function(|_, mode: i32| { processing::blend_mode(mode); Ok(()) })?)?;'
+- slug: clip
+  name: clip()
+  cat_tag: Rendering
+  description: Limits the rendering to a rectangular area. Only pixels inside the clip region will be drawn.
+  related:
+  - noClip
+  syntax: clip(x, y, w, h)
+  params:
+  - name: x
+    type: number
+    desc: x-coordinate
+  - name: y
+    type: number
+    desc: y-coordinate
+  - name: w
+    type: number
+    desc: width of clip region
+  - name: h
+    type: number
+    desc: height of clip region
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("clip", lua.create_function(|_, (x, y, w, h): (f32, f32, f32, f32)| { engine::clip(x, y, w, h); Ok(()) })?)?;'
+- slug: createGraphics
+  name: createGraphics()
+  cat_tag: Rendering
+  description: Creates an off-screen rendering surface (PGraphics). Draw into it using beginDraw()/endDraw(), then display with image().
+  related:
+  - PGraphics_class
+  - image
+  syntax: createGraphics(w, h)
+  params:
+  - name: w
+    type: number
+    desc: width of the graphics buffer
+  - name: h
+    type: number
+    desc: height of the graphics buffer
+  returns: PGraphics
+  uth:
+  - - runner/src/prelude.lua
+    - "function createGraphics(w, h)\n  local id, rw, rh = create(w, h)\n  if id == 0 then error(\"createGraphics(): could not make the layer (too many, or too big)\", 2) end\n  return setmetatable({ id = id, width = rw, height = rh }, Layer)\nend"
+- slug: hint
+  name: hint()
+  cat_tag: Rendering
+  description: Set hints for the renderer. Use ENABLE_DEPTH_TEST, DISABLE_DEPTH_TEST, ENABLE_DEPTH_SORT, etc.
+  related: []
+  syntax: hint(which)
+  params:
+  - name: which
+    type: number
+    desc: a hint constant such as ENABLE_DEPTH_TEST or DISABLE_DEPTH_TEST
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("hint", lua.create_function(|_, which: i32| { engine::hint(which); Ok(()) })?)?;'
+- slug: noClip
+  name: noClip()
+  cat_tag: Rendering
+  description: Disables the clipping region set with clip().
+  related:
+  - clip
+  syntax: noClip()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("noClip", lua.create_function(|_, ()| { engine::no_clip(); Ok(()) })?)?;
+- slug: loadShader
+  name: loadShader()
+  cat_tag: Rendering / Shaders
+  description: Loads a GLSL shader from a file. Pass the fragment shader path and optionally the vertex shader path.
+  related:
+  - resetShader
+  syntax: 'loadShader(fragPath)
+
+    loadShader(fragPath, vertPath)'
+  params:
+  - name: fragPath
+    type: string
+    desc: path to fragment shader file
+  - name: vertPath
+    type: string
+    desc: path to vertex shader file (optional)
+  returns: PShader
+  uth:
+  - - runner/src/prelude.lua
+    - "function loadShader(frag, vert)\n  local h = load(frag, vert)\n  if not ok(h) then return nil end\n  return setmetatable({ handle = h }, Shader)\nend"
+- slug: resetShader
+  name: resetShader()
+  cat_tag: Rendering / Shaders
+  description: Restores the default rendering pipeline, removing any applied shader.
+  related:
+  - shader_fn
+  - loadShader
+  syntax: resetShader()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - function resetShader() shapes(nil) end
+- slug: shader_fn
+  name: shader()
+  cat_tag: Rendering / Shaders
+  description: Applies a PShader to the rendering pipeline.
+  related:
+  - loadShader
+  - resetShader
+  syntax: shader(s)
+  params:
+  - name: s
+    type: PShader
+    desc: the shader to apply
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "-- shader(s): shapes after it are colored by the shader (vertColor is the\n-- fill); resetShader() goes back to plain fills\nfunction shader(s)\n  if getmetatable(s) ~= Shader then error(\"shader() expects a shader from loadShader()\", 2) end\n  shapes(s.handle)\nend"
+- slug: createImage
+  name: createImage()
+  cat_tag: Image
+  description: Creates a new PImage (the datatype for storing images) with the given width and height.
+  related:
+  - loadImage
+  syntax: createImage(w, h, mode)
+  params:
+  - name: w
+    type: number
+    desc: width in pixels
+  - name: h
+    type: number
+    desc: height in pixels
+  - name: mode
+    type: number
+    desc: ARGB or RGB
+  returns: PImage
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"createImage\", lua.create_function(|_, (w, h): (f64, f64)| {\n    Ok(processing::create_image(w.max(0.0) as u32, h.max(0.0) as u32) as i64)\n})?)?;"
+- slug: blend_fn
+  name: blend()
+  cat_tag: Image / Pixels
+  description: Copies a region of pixels from one image into another with full alpha channel blending. Blend modes include BLEND, ADD, SUBTRACT, MULTIPLY, SCREEN, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION.
+  related:
+  - blendMode
+  - copy_fn
+  - filter
+  syntax: blend(sx, sy, sw, sh, dx, dy, dw, dh, mode)
+  params:
+  - name: sx
+    type: number
+    desc: x-coordinate of source region
+  - name: sy
+    type: number
+    desc: y-coordinate of source region
+  - name: sw
+    type: number
+    desc: source region width
+  - name: sh
+    type: number
+    desc: source region height
+  - name: dx
+    type: number
+    desc: x-coordinate of destination
+  - name: dy
+    type: number
+    desc: y-coordinate of destination
+  - name: dw
+    type: number
+    desc: destination width
+  - name: dh
+    type: number
+    desc: destination height
+  - name: mode
+    type: number
+    desc: blend mode constant
+  returns: ''
+  uth: []
+- slug: copy_fn
+  name: copy()
+  cat_tag: Image / Pixels
+  description: Copies a region of the display window to another location on the display window.
+  related:
+  - blend_fn
+  - PImage_class
+  syntax: copy(sx, sy, sw, sh, dx, dy, dw, dh)
+  params:
+  - name: sx
+    type: number
+    desc: x-coordinate of source
+  - name: sy
+    type: number
+    desc: y-coordinate of source
+  - name: sw
+    type: number
+    desc: source width
+  - name: sh
+    type: number
+    desc: source height
+  - name: dx
+    type: number
+    desc: x-coordinate of destination
+  - name: dy
+    type: number
+    desc: y-coordinate of destination
+  - name: dw
+    type: number
+    desc: destination width
+  - name: dh
+    type: number
+    desc: destination height
+  returns: ''
+  uth: []
+- slug: filter
+  name: filter()
+  cat_tag: Image / Pixels
+  description: 'Applies a filter to the display. Available filters: GRAY, INVERT, THRESHOLD.'
+  related:
+  - loadPixels
+  syntax: 'filter(mode)
+
+    filter(mode, param)'
+  params:
+  - name: mode
+    type: number
+    desc: GRAY, INVERT, THRESHOLD, BLUR_FILTER, POSTERIZE
+  - name: param
+    type: number
+    desc: parameter for some filters (optional)
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "function filter(kind, ...)\n  if getmetatable(kind) == Shader then return run(kind.handle) end\n  return plainFilter(kind, ...)\nend"
+- slug: get_pixel
+  name: get()
+  cat_tag: Image / Pixels
+  description: Reads the color of any pixel or grabs a section of a PImage.
+  related:
+  - set_pixel
+  - loadPixels
+  syntax: get(x, y)
+  params:
+  - name: x
+    type: number
+    desc: x-coordinate
+  - name: y
+    type: number
+    desc: y-coordinate
+  returns: color
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"get\", lua.create_function(|_, (x, y, w, h): (f64, f64, Option<f64>, Option<f64>)| {\n    // get(x, y, w, h): a piece of the canvas as a new image\n    if let (Some(w), Some(h)) = (w, h) {\n        let id = processing::get_region(x.floor() as i32, y.floor() as i32, w.max(0.0) as u32, h.max(0.0) as u32);\n        return Ok(LuaMultiValue::from_vec(vec![LuaValue::Integer(id as i64)]));\n    }\n    let (r, g, b) = processing::get_pixel(x.floor() as i32, y.floor() as i32);\n    Ok(LuaMultiValue::from_vec(vec![LuaValue::Integer(r as i64), LuaValue::Integer(g as i64), LuaValue::Integer(b as i64)]))\n})?)?;"
+- slug: loadPixels
+  name: loadPixels()
+  cat_tag: Image / Pixels
+  description: Loads the pixel data for the display window into the pixels[] array.
+  related:
+  - updatePixels
+  syntax: loadPixels()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"loadPixels\", lua.create_function(|lua, ()| {\n    let px = processing::load_pixels();\n    let t = match lua.globals().raw_get::<_, LuaValue>(\"pixels\")? {\n        LuaValue::Table(t) if t.raw_len() + 1 == px.len() => t,   // reuse: same size as last time\n        _ => lua.create_table_with_capacity(px.len(), 1)?,\n    };\n    for (i, p) in px.iter().enumerate() { t.raw_set(i as i64, *p as i64)?; }\n    lua.globals().raw_set(\"pixels\", t)\n})?)?;"
+- slug: set_pixel
+  name: set()
+  cat_tag: Image / Pixels
+  description: Changes the color of any pixel or writes an image directly to the display window.
+  related:
+  - get_pixel
+  - loadPixels
+  syntax: set(x, y, c)
+  params:
+  - name: x
+    type: number
+    desc: x-coordinate
+  - name: y
+    type: number
+    desc: y-coordinate
+  - name: c
+    type: color
+    desc: color value
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - local load, fromSource, ok, set, run, shapes = __loadShader, __shaderFromSource, __shaderOk, __shaderSet, __filterShader, __shapeShader
+- slug: updatePixels
+  name: updatePixels()
+  cat_tag: Image / Pixels
+  description: Updates the display window with the data in the pixels[] array.
+  related:
+  - loadPixels
+  syntax: updatePixels()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"updatePixels\", lua.create_function(|lua, ()| {\n    let t = match lua.globals().raw_get::<_, LuaValue>(\"pixels\")? {\n        LuaValue::Table(t) => t,\n        _ => return Err(LuaError::RuntimeError(\"updatePixels() needs loadPixels() first\".into())),\n    };\n    let mut px = processing::load_pixels();\n    for (i, p) in px.iter_mut().enumerate() {\n        match t.raw_get::<_, LuaValue>(i as i64)? {\n            LuaValue::Integer(n) => *p = if is_packed(n) { n as u32 } else { gray_pixel(n as f32) },\n            LuaValue::Number(n)  => *p = gray_pixel(n as f32),\n            _ => {}   // nil or anything else: that pixel stays as it is\n        }\n    }\n    processing::update_pixels(&px);\n    Ok(())\n})?)?;"
+- slug: image
+  name: image()
+  cat_tag: Image / Loading & Displaying
+  description: Displays an image at the given position. Optionally specify width and height.
+  related:
+  - loadImage
+  - imageMode
+  - tint
+  syntax: 'image(img, x, y)
+
+    image(img, x, y, w, h)'
+  params:
+  - name: img
+    type: PImage
+    desc: the image to display
+  - name: x
+    type: number
+    desc: x-coordinate
+  - name: y
+    type: number
+    desc: y-coordinate
+  - name: w
+    type: number
+    desc: width (optional)
+  - name: h
+    type: number
+    desc: height (optional)
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "function image(img, ...)\n  if getmetatable(img) == Layer then return show(img.id, ...) end\n  return drawImage(img, ...)\nend"
+  - - runner/src/prelude.lua
+    - "function image(img, ...)\n  local mt = getmetatable(img)\n  if mt == MovieObj or mt == CaptureObj then return drawImage(img.img, ...) end\n  return drawImage(img, ...)\nend"
+- slug: imageMode
+  name: imageMode()
+  cat_tag: Image / Loading & Displaying
+  description: Modifies the location from which images are drawn. Default is CORNER.
+  related:
+  - image
+  syntax: imageMode(mode)
+  params:
+  - name: mode
+    type: number
+    desc: CORNER, CORNERS, or CENTER
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("imageMode", lua.create_function(|_, m: i32| { processing::image_mode(m); Ok(()) })?)?;'
+- slug: loadImage
+  name: loadImage()
+  cat_tag: Image / Loading & Displaying
+  description: 'Loads an image into a variable of type PImage. Supported formats: PNG, JPG, GIF, TGA. Images are loaded from the sketch''s data folder.'
+  related:
+  - image
+  - createImage
+  syntax: loadImage(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the image file
+  returns: PImage
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"loadImage\", lua.create_function(|_, path: LuaString| {\n    Ok(processing::load_image(&path.to_string_lossy()) as i64)\n})?)?;"
+- slug: noTint
+  name: noTint()
+  cat_tag: Image / Loading & Displaying
+  description: Removes the current fill value for displaying images.
+  related:
+  - tint
+  syntax: noTint()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("noTint", lua.create_function(|_, ()| { processing::no_tint(); Ok(()) })?)?;
+- slug: tint
+  name: tint()
+  cat_tag: Image / Loading & Displaying
+  description: Sets the fill value for displaying images. Images can be tinted to specified colors.
+  related:
+  - noTint
+  - image
+  syntax: 'tint(gray)
+
+    tint(gray, a)
+
+    tint(r, g, b)
+
+    tint(r, g, b, a)'
+  params:
+  - name: gray
+    type: number
+    desc: grayscale value
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: a
+    type: number
+    desc: alpha (optional)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"tint\", lua.create_function(|_, args: LuaMultiValue| {\n    let c = unpack_color(args);\n    processing::tint(c[0], c[1], c[2], c[3]); Ok(())\n})?)?;"
+- slug: texture
+  name: texture()
+  cat_tag: Image / Textures
+  description: Sets a texture to be applied to vertex points. Must be called between beginShape() and endShape().
+  related:
+  - textureMode
+  - textureWrap
+  - vertex
+  syntax: texture(img)
+  params:
+  - name: img
+    type: PImage
+    desc: image to use as texture
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "function texture(img)\n  local mt = getmetatable(img)\n  if mt == MovieObj or mt == CaptureObj then return setTexture(img.img) end\n  return setTexture(img)\nend"
+- slug: textureMode
+  name: textureMode()
+  cat_tag: Image / Textures
+  description: Sets the coordinate space for texture mapping. IMAGE uses pixel coordinates, NORMAL uses 0.0 to 1.0.
+  related:
+  - texture
+  - textureWrap
+  syntax: textureMode(mode)
+  params:
+  - name: mode
+    type: number
+    desc: IMAGE or NORMAL
+  returns: ''
+  uth: []
+- slug: textureWrap
+  name: textureWrap()
+  cat_tag: Image / Textures
+  description: Defines if textures repeat or clamp when outside the texture boundary.
+  related:
+  - texture
+  - textureMode
+  syntax: textureWrap(mode)
+  params:
+  - name: mode
+    type: number
+    desc: CLAMP or REPEAT
+  returns: ''
+  uth: []
+- slug: createShape
+  name: createShape()
+  cat_tag: Shape
+  description: Creates a new PShape object. Optionally pass a kind constant.
+  related:
+  - loadShape
+  - beginShape
+  syntax: 'createShape()
+
+    createShape(kind)'
+  params:
+  - name: kind
+    type: number
+    desc: 'shape kind (optional): POINTS, LINES, TRIANGLES, etc.'
+  returns: PShape
+  uth:
+  - - runner/src/prelude.lua
+    - "function createShape(kind, ...)\n  local s = setmetatable({ steps = {}, style = {}, moves = {}, children = {}, styled = true }, Made)\n  if kind == nil then return s end\n  if kind == GROUP then s.group = true return s end\n  local name = primitives[kind]\n  if not name then error(\"createShape(): unknown kind of shape\", 2) end\n  s.steps[1] = { name, ... }\n  return s\nend"
+- slug: loadShape
+  name: loadShape()
+  cat_tag: Shape
+  description: Loads geometry into a variable of type PShape. Supports SVG and OBJ files.
+  related:
+  - shape
+  - createShape
+  syntax: loadShape(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the SVG or OBJ file
+  returns: PShape
+  uth:
+  - - runner/src/prelude.lua
+    - "function loadShape(path)\n  local id, w, h = load(path)\n  if id == 0 then return nil end\n  return setmetatable({ id = id, width = w, height = h }, Shape)\nend"
+- slug: arc
+  name: arc()
+  cat_tag: Shape / 2D Primitives
+  description: Draws an arc in the display window. Angles are given in radians.
+  related:
+  - ellipse
+  - ellipseMode
+  syntax: 'arc(cx, cy, w, h, start, stop)
+
+    arc(cx, cy, w, h, start, stop, mode)'
+  params:
+  - name: cx
+    type: number
+    desc: x-coordinate of the center
+  - name: cy
+    type: number
+    desc: y-coordinate of the center
+  - name: w
+    type: number
+    desc: width of the arc
+  - name: h
+    type: number
+    desc: height of the arc
+  - name: start
+    type: number
+    desc: angle to start the arc (radians)
+  - name: stop
+    type: number
+    desc: angle to stop the arc (radians)
+  - name: mode
+    type: number
+    desc: OPEN, CHORD, or PIE (optional)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"arc\", lua.create_function(|_, (x,y,w,h,start,stop,mode): (f32,f32,f32,f32,f32,f32,Option<i32>)| {\n    processing::arc(x,y,w,h,start,stop, mode.unwrap_or(0)); Ok(())\n})?)?;"
+- slug: circle
+  name: circle()
+  cat_tag: Shape / 2D Primitives
+  description: Draws a circle to the screen. By default, the first two parameters set the location of the center, and the third sets the shape's diameter.
+  related:
+  - ellipse
+  - arc
+  syntax: circle(cx, cy, d)
+  params:
+  - name: cx
+    type: number
+    desc: x-coordinate of the center
+  - name: cy
+    type: number
+    desc: y-coordinate of the center
+  - name: d
+    type: number
+    desc: diameter of the circle
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"circle\", lua.create_function(|_, (x,y,d): (f32,f32,f32)| {\n    processing::circle(x,y,d); Ok(())\n})?)?;"
+- slug: ellipse
+  name: ellipse()
+  cat_tag: Shape / 2D Primitives
+  description: Draws an ellipse (oval) to the screen. The first two parameters set the location, and the third and fourth parameters set the width and height.
+  related:
+  - circle
+  - arc
+  - ellipseMode
+  syntax: ellipse(cx, cy, w, h)
+  params:
+  - name: cx
+    type: number
+    desc: x-coordinate of the center
+  - name: cy
+    type: number
+    desc: y-coordinate of the center
+  - name: w
+    type: number
+    desc: width of the ellipse
+  - name: h
+    type: number
+    desc: height of the ellipse
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"ellipse\", lua.create_function(|_, (x,y,w,h): (f32,f32,f32,f32)| {\n    processing::ellipse(x,y,w,h); Ok(())\n})?)?;"
+- slug: line
+  name: line()
+  cat_tag: Shape / 2D Primitives
+  description: Draws a line between two points. Supports both 2D and 3D.
+  related:
+  - point
+  - strokeWeight
+  syntax: 'line(x1, y1, x2, y2)
+
+    line(x1, y1, z1, x2, y2, z2)'
+  params:
+  - name: x1
+    type: number
+    desc: x-coordinate of the first point
+  - name: y1
+    type: number
+    desc: y-coordinate of the first point
+  - name: x2
+    type: number
+    desc: x-coordinate of the second point
+  - name: y2
+    type: number
+    desc: y-coordinate of the second point
+  - name: z1/z2
+    type: number
+    desc: z-coordinates (3D only, optional)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"line\", lua.create_function(|_, (a, b, c, d, e, f): (f32, f32, f32, f32, Option<f32>, Option<f32>)| {\n    match (e, f) {\n        (Some(e), Some(f)) => processing::line3(a, b, c, d, e, f),\n        _ => processing::line(a, b, c, d),\n    }\n    Ok(())\n})?)?;"
+- slug: point
+  name: point()
+  cat_tag: Shape / 2D Primitives
+  description: Draws a point at the given coordinates.
+  related:
+  - line
+  syntax: 'point(x, y)
+
+    point(x, y, z)'
+  params:
+  - name: x
+    type: number
+    desc: x-coordinate
+  - name: y
+    type: number
+    desc: y-coordinate
+  - name: z
+    type: number
+    desc: z-coordinate (optional, 3D)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"point\", lua.create_function(|_, (x, y, z): (f32, f32, Option<f32>)| {\n    match z { Some(z) => processing::point3(x, y, z), None => processing::point(x, y) }\n    Ok(())\n})?)?;"
+- slug: quad
+  name: quad()
+  cat_tag: Shape / 2D Primitives
+  description: Draws a quadrilateral (a four-sided polygon) using the x and y coordinates of its four vertices.
+  related:
+  - triangle
+  - rect
+  syntax: quad(x1, y1, x2, y2, x3, y3, x4, y4)
+  params:
+  - name: x1
+    type: number
+    desc: x of first vertex
+  - name: y1
+    type: number
+    desc: y of first vertex
+  - name: x2
+    type: number
+    desc: x of second vertex
+  - name: y2
+    type: number
+    desc: y of second vertex
+  - name: x3
+    type: number
+    desc: x of third vertex
+  - name: y3
+    type: number
+    desc: y of third vertex
+  - name: x4
+    type: number
+    desc: x of fourth vertex
+  - name: y4
+    type: number
+    desc: y of fourth vertex
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"quad\", lua.create_function(|_, (x1,y1,x2,y2,x3,y3,x4,y4): (f32,f32,f32,f32,f32,f32,f32,f32)| {\n    processing::quad(x1,y1,x2,y2,x3,y3,x4,y4); Ok(())\n})?)?;"
+- slug: rect
+  name: rect()
+  cat_tag: Shape / 2D Primitives
+  description: Draws a rectangle to the screen. The fourth parameter can be a corner radius.
+  related:
+  - square
+  - rectMode
+  syntax: 'rect(x, y, w, h)
+
+    rect(x, y, w, h, r)'
+  params:
+  - name: x
+    type: number
+    desc: x-coordinate of the upper-left corner
+  - name: y
+    type: number
+    desc: y-coordinate of the upper-left corner
+  - name: w
+    type: number
+    desc: width
+  - name: h
+    type: number
+    desc: height
+  - name: r
+    type: number
+    desc: corner radius (optional)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"rect\", lua.create_function(|_, (x,y,w,h,r,tr,br,bl): (f32,f32,f32,f32,Option<f32>,Option<f32>,Option<f32>,Option<f32>)| {\n    match (r, tr, br, bl) {\n        (Some(tl), Some(tr), Some(br), Some(bl)) => processing::rect_radii(x,y,w,h,tl,tr,br,bl),\n        (Some(r), ..) if r > 0.0 => processing::rect_rounded(x,y,w,h,r),\n        _                        => processing::rect(x,y,w,h),\n    }\n    Ok(())\n})?)?;"
+- slug: square
+  name: square()
+  cat_tag: Shape / 2D Primitives
+  description: Draws a square to the screen.
+  related:
+  - rect
+  syntax: square(x, y, s)
+  params:
+  - name: x
+    type: number
+    desc: x-coordinate of the upper-left corner
+  - name: y
+    type: number
+    desc: y-coordinate of the upper-left corner
+  - name: s
+    type: number
+    desc: side length
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"square\", lua.create_function(|_, (x,y,s): (f32,f32,f32)| {\n    processing::rect(x,y,s,s); Ok(())\n})?)?;"
+- slug: triangle
+  name: triangle()
+  cat_tag: Shape / 2D Primitives
+  description: Draws a triangle to the screen using the coordinates of its three vertices.
+  related:
+  - quad
+  syntax: triangle(x1, y1, x2, y2, x3, y3)
+  params:
+  - name: x1
+    type: number
+    desc: x-coordinate of the first vertex
+  - name: y1
+    type: number
+    desc: y-coordinate of the first vertex
+  - name: x2
+    type: number
+    desc: x-coordinate of the second vertex
+  - name: y2
+    type: number
+    desc: y-coordinate of the second vertex
+  - name: x3
+    type: number
+    desc: x-coordinate of the third vertex
+  - name: y3
+    type: number
+    desc: y-coordinate of the third vertex
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"triangle\", lua.create_function(|_, (x1,y1,x2,y2,x3,y3): (f32,f32,f32,f32,f32,f32)| {\n    processing::triangle(x1,y1,x2,y2,x3,y3); Ok(())\n})?)?;"
+- slug: beginContour
+  name: beginContour()
+  cat_tag: Shape / Vertex
+  description: Use beginContour() and endContour() to cut out areas within a shape (like holes).
+  related:
+  - endContour
+  - beginShape
+  syntax: beginContour()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("beginContour", lua.create_function(|_, ()| { engine::begin_contour(); Ok(()) })?)?;
+- slug: beginShape
+  name: beginShape()
+  cat_tag: Shape / Vertex
+  description: Using beginShape() and endShape() allows creating complex forms. Optionally pass a shape kind.
+  related:
+  - endShape
+  - vertex
+  syntax: 'beginShape()
+
+    beginShape(kind)'
+  params:
+  - name: kind
+    type: number
+    desc: POINTS, LINES, TRIANGLES, TRIANGLE_FAN, TRIANGLE_STRIP, QUADS, QUAD_STRIP (optional)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"beginShape\", lua.create_function(|_, kind: Option<i32>| {\n    processing::begin_shape(kind.unwrap_or(9)); Ok(())\n})?)?;"
+- slug: bezierVertex
+  name: bezierVertex()
+  cat_tag: Shape / Vertex
+  description: Specifies vertex coordinates for bezier curves inside beginShape()/endShape().
+  related:
+  - beginShape
+  - vertex
+  - curveVertex
+  syntax: bezierVertex(cx1, cy1, cx2, cy2, x, y)
+  params:
+  - name: cx1
+    type: number
+    desc: x of first control point
+  - name: cy1
+    type: number
+    desc: y of first control point
+  - name: cx2
+    type: number
+    desc: x of second control point
+  - name: cy2
+    type: number
+    desc: y of second control point
+  - name: x
+    type: number
+    desc: x of anchor point
+  - name: y
+    type: number
+    desc: y of anchor point
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"bezierVertex\", lua.create_function(|_, (cx1,cy1,cx2,cy2,x,y): (f32,f32,f32,f32,f32,f32)| {\n    processing::bezier_vertex(cx1,cy1,cx2,cy2,x,y); Ok(())\n})?)?;"
+- slug: curveVertex
+  name: curveVertex()
+  cat_tag: Shape / Vertex
+  description: Specifies vertex coordinates for curves inside beginShape()/endShape(). At least 4 points required.
+  related:
+  - beginShape
+  - vertex
+  - bezierVertex
+  syntax: curveVertex(x, y)
+  params:
+  - name: x
+    type: number
+    desc: x-coordinate of the vertex
+  - name: y
+    type: number
+    desc: y-coordinate of the vertex
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"curveVertex\", lua.create_function(|_, (x,y): (f32,f32)| {\n    processing::curve_vertex(x,y); Ok(())\n})?)?;"
+- slug: endContour
+  name: endContour()
+  cat_tag: Shape / Vertex
+  description: The companion to beginContour().
+  related:
+  - beginContour
+  - endShape
+  syntax: endContour()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("endContour", lua.create_function(|_, ()| { engine::end_contour(); Ok(()) })?)?;
+- slug: endShape
+  name: endShape()
+  cat_tag: Shape / Vertex
+  description: The companion to beginShape(). Pass CLOSE to close the shape.
+  related:
+  - beginShape
+  - vertex
+  syntax: 'endShape()
+
+    endShape(mode)'
+  params:
+  - name: mode
+    type: number
+    desc: CLOSE to close the shape (optional)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"endShape\", lua.create_function(|_, mode: Option<i32>| {\n    processing::end_shape(mode.unwrap_or(0)); Ok(())\n})?)?;"
+- slug: quadraticVertex
+  name: quadraticVertex()
+  cat_tag: Shape / Vertex
+  description: Specifies a vertex with a single control point for quadratic bezier curves.
+  related:
+  - bezierVertex
+  - vertex
+  syntax: quadraticVertex(cx, cy, x, y)
+  params:
+  - name: cx
+    type: number
+    desc: x of control point
+  - name: cy
+    type: number
+    desc: y of control point
+  - name: x
+    type: number
+    desc: x of anchor point
+  - name: y
+    type: number
+    desc: y of anchor point
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"quadraticVertex\", lua.create_function(|_, (cx,cy,x,y): (f32,f32,f32,f32)| {\n    processing::quadratic_vertex(cx,cy,x,y); Ok(())\n})?)?;"
+- slug: vertex
+  name: vertex()
+  cat_tag: Shape / Vertex
+  description: Adds a vertex to a shape defined with beginShape().
+  related:
+  - beginShape
+  - endShape
+  - bezierVertex
+  - curveVertex
+  syntax: 'vertex(x, y)
+
+    vertex(x, y, z)
+
+    vertex(x, y, u, v)
+
+    vertex(x, y, z, u, v)'
+  params:
+  - name: x
+    type: number
+    desc: x-coordinate
+  - name: y
+    type: number
+    desc: y-coordinate
+  - name: z
+    type: number
+    desc: z-coordinate (optional, 3D)
+  - name: u
+    type: number
+    desc: horizontal texture coordinate (optional)
+  - name: v
+    type: number
+    desc: vertical texture coordinate (optional)
+  returns: ''
+  uth: []
+- slug: bezierDetail
+  name: bezierDetail()
+  cat_tag: Shape / Curves
+  description: Sets the resolution at which bezier curves display. Default is 20.
+  related:
+  - bezier
+  syntax: bezierDetail(d)
+  params:
+  - name: d
+    type: number
+    desc: resolution of the bezier curve
+  returns: ''
+  uth: []
+- slug: bezierPoint
+  name: bezierPoint()
+  cat_tag: Shape / Curves
+  description: Evaluates the bezier at parameter t, returning a point on the curve.
+  related:
+  - bezier
+  - bezierTangent
+  syntax: bezierPoint(a, b, c, d, t)
+  params:
+  - name: a
+    type: number
+    desc: coordinate of first point
+  - name: b
+    type: number
+    desc: coordinate of first control point
+  - name: c
+    type: number
+    desc: coordinate of second control point
+  - name: d
+    type: number
+    desc: coordinate of second point
+  - name: t
+    type: number
+    desc: value between 0 and 1
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - "-- ── More math ─────────────────────────────────────────────────────────────\nfunction bezierPoint(a, b, c, d, t)\n  local u = 1 - t\n  return u * u * u * a + 3 * u * u * t * b + 3 * u * t * t * c + t * t * t * d\nend"
+- slug: bezierTangent
+  name: bezierTangent()
+  cat_tag: Shape / Curves
+  description: Calculates the tangent of a point on a bezier curve.
+  related:
+  - bezier
+  - bezierPoint
+  syntax: bezierTangent(a, b, c, d, t)
+  params:
+  - name: a
+    type: number
+    desc: coordinate of first point
+  - name: b
+    type: number
+    desc: coordinate of first control point
+  - name: c
+    type: number
+    desc: coordinate of second control point
+  - name: d
+    type: number
+    desc: coordinate of second point
+  - name: t
+    type: number
+    desc: value between 0 and 1
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - "function bezierTangent(a, b, c, d, t)\n  local u = 1 - t\n  return 3 * u * u * (b - a) + 6 * u * t * (c - b) + 3 * t * t * (d - c)\nend"
+- slug: bezier
+  name: bezier()
+  cat_tag: Shape / Curves
+  description: Draws a cubic bezier curve on the screen.
+  related:
+  - bezierVertex
+  - curve
+  syntax: bezier(x1, y1, cx1, cy1, cx2, cy2, x2, y2)
+  params:
+  - name: x1
+    type: number
+    desc: x of start point
+  - name: y1
+    type: number
+    desc: y of start point
+  - name: cx1
+    type: number
+    desc: x of first control point
+  - name: cy1
+    type: number
+    desc: y of first control point
+  - name: cx2
+    type: number
+    desc: x of second control point
+  - name: cy2
+    type: number
+    desc: y of second control point
+  - name: x2
+    type: number
+    desc: x of end point
+  - name: y2
+    type: number
+    desc: y of end point
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"bezier\", lua.create_function(|_, (x1,y1,cx1,cy1,cx2,cy2,x2,y2): (f32,f32,f32,f32,f32,f32,f32,f32)| {\n    processing::bezier(x1,y1,cx1,cy1,cx2,cy2,x2,y2); Ok(())\n})?)?;"
+- slug: curveDetail
+  name: curveDetail()
+  cat_tag: Shape / Curves
+  description: Sets the resolution at which curves display. Default is 20.
+  related:
+  - curve
+  - curveTightness
+  syntax: curveDetail(d)
+  params:
+  - name: d
+    type: number
+    desc: resolution of the curve
+  returns: ''
+  uth: []
+- slug: curvePoint
+  name: curvePoint()
+  cat_tag: Shape / Curves
+  description: Evaluates the Catmull-Rom curve at parameter t.
+  related:
+  - curve
+  - curveTangent
+  syntax: curvePoint(a, b, c, d, t)
+  params:
+  - name: a
+    type: number
+    desc: coordinate of first control point
+  - name: b
+    type: number
+    desc: coordinate of first point
+  - name: c
+    type: number
+    desc: coordinate of second point
+  - name: d
+    type: number
+    desc: coordinate of second control point
+  - name: t
+    type: number
+    desc: value between 0 and 1
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function curvePoint(a, b, c, d, t) return __curve(a, b, c, d, t, 0) end
+- slug: curveTangent
+  name: curveTangent()
+  cat_tag: Shape / Curves
+  description: Calculates the tangent of a point on a Catmull-Rom curve.
+  related:
+  - curve
+  - curvePoint
+  syntax: curveTangent(a, b, c, d, t)
+  params:
+  - name: a
+    type: number
+    desc: coordinate of first control point
+  - name: b
+    type: number
+    desc: coordinate of first point
+  - name: c
+    type: number
+    desc: coordinate of second point
+  - name: d
+    type: number
+    desc: coordinate of second control point
+  - name: t
+    type: number
+    desc: value between 0 and 1
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function curveTangent(a, b, c, d, t) return __curve(a, b, c, d, t, 1) end
+- slug: curveTightness
+  name: curveTightness()
+  cat_tag: Shape / Curves
+  description: Modifies the quality of curves drawn with curve(). Default is 0.
+  related:
+  - curve
+  - curveDetail
+  syntax: curveTightness(t)
+  params:
+  - name: t
+    type: number
+    desc: amount of deformation from the original vertices
+  returns: ''
+  uth: []
+- slug: curve
+  name: curve()
+  cat_tag: Shape / Curves
+  description: Draws a curved line on the screen (Catmull-Rom spline).
+  related:
+  - bezier
+  - curveVertex
+  syntax: curve(x0, y0, x1, y1, x2, y2, x3, y3)
+  params:
+  - name: x0
+    type: number
+    desc: x of beginning control point
+  - name: y0
+    type: number
+    desc: y of beginning control point
+  - name: x1
+    type: number
+    desc: x of first point
+  - name: y1
+    type: number
+    desc: y of first point
+  - name: x2
+    type: number
+    desc: x of second point
+  - name: y2
+    type: number
+    desc: y of second point
+  - name: x3
+    type: number
+    desc: x of ending control point
+  - name: y3
+    type: number
+    desc: y of ending control point
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"curve\", lua.create_function(|_, (cx1,cy1,x1,y1,x2,y2,cx2,cy2): (f32,f32,f32,f32,f32,f32,f32,f32)| {\n    processing::curve(cx1,cy1,x1,y1,x2,y2,cx2,cy2); Ok(())\n})?)?;"
+- slug: box
+  name: box()
+  cat_tag: Shape / 3D Primitives
+  description: A box is an extruded rectangle. Use in P3D mode. A box with equal dimensions is a cube.
+  related:
+  - sphere
+  - size
+  syntax: 'box(size)
+
+    box(w, h, d)'
+  params:
+  - name: size
+    type: number
+    desc: dimension of the box in all directions
+  - name: w
+    type: number
+    desc: width
+  - name: h
+    type: number
+    desc: height
+  - name: d
+    type: number
+    desc: depth
+  returns: ''
+  uth: []
+- slug: sphere
+  name: sphere()
+  cat_tag: Shape / 3D Primitives
+  description: Draws a sphere. Use sphereDetail() to control tessellation. Must be in P3D mode.
+  related:
+  - box
+  - sphereDetail
+  syntax: sphere(r)
+  params:
+  - name: r
+    type: number
+    desc: radius of the sphere
+  returns: ''
+  uth: []
+- slug: sphereDetail
+  name: sphereDetail()
+  cat_tag: Shape / 3D Primitives
+  description: Controls the detail used to render a sphere by adjusting the number of vertices.
+  related:
+  - sphere
+  syntax: sphereDetail(res)
+  params:
+  - name: res
+    type: number
+    desc: number of segments (higher = smoother)
+  returns: ''
+  uth: []
+- slug: ellipseMode
+  name: ellipseMode()
+  cat_tag: Shape / Attributes
+  description: Modifies the location from which ellipses are drawn. Default is CENTER.
+  related:
+  - ellipse
+  - circle
+  syntax: ellipseMode(mode)
+  params:
+  - name: mode
+    type: number
+    desc: CENTER, RADIUS, CORNER, or CORNERS
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("ellipseMode", lua.create_function(|_, m: i32| { processing::ellipse_mode(m); Ok(()) })?)?;'
+- slug: rectMode
+  name: rectMode()
+  cat_tag: Shape / Attributes
+  description: Modifies the location from which rectangles are drawn. Default is CORNER.
+  related:
+  - rect
+  - square
+  syntax: rectMode(mode)
+  params:
+  - name: mode
+    type: number
+    desc: CORNER, CORNERS, CENTER, or RADIUS
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("rectMode", lua.create_function(|_, m: i32| { processing::rect_mode(m); Ok(()) })?)?;'
+- slug: strokeCap
+  name: strokeCap()
+  cat_tag: Shape / Attributes
+  description: 'Sets the style for rendering line endings. Options: ROUND, SQUARE, PROJECT.'
+  related:
+  - stroke
+  - strokeJoin
+  - strokeWeight
+  syntax: strokeCap(cap)
+  params:
+  - name: cap
+    type: number
+    desc: ROUND, SQUARE, or PROJECT
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"strokeCap\", lua.create_function(|_, cap: i32| {\n    processing::stroke_cap(cap);\n    Ok(())\n})?)?;"
+- slug: strokeJoin
+  name: strokeJoin()
+  cat_tag: Shape / Attributes
+  description: 'Sets the style of the joints which connect line segments. Options: MITER, BEVEL, ROUND.'
+  related:
+  - stroke
+  - strokeCap
+  - strokeWeight
+  syntax: strokeJoin(join)
+  params:
+  - name: join
+    type: number
+    desc: MITER, BEVEL, or ROUND
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"strokeJoin\", lua.create_function(|_, join: i32| {\n    processing::stroke_join(join);\n    Ok(())\n})?)?;"
+- slug: strokeWeight
+  name: strokeWeight()
+  cat_tag: Shape / Attributes
+  description: Sets the width of the stroke used for lines, points, and shape borders.
+  related:
+  - stroke
+  - strokeCap
+  - strokeJoin
+  syntax: strokeWeight(w)
+  params:
+  - name: w
+    type: number
+    desc: stroke weight in pixels
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"strokeWeight\", lua.create_function(|_, w: f32| {\n    processing::stroke_weight(w);\n    Ok(())\n})?)?;"
+- slug: shape
+  name: shape()
+  cat_tag: Shape / Loading & Displaying
+  description: Draws a shape to the display window.
+  related:
+  - loadShape
+  - createShape
+  - shapeMode
+  syntax: 'shape(s, x, y)
+
+    shape(s, x, y, w, h)'
+  params:
+  - name: s
+    type: PShape
+    desc: the shape to draw
+  - name: x
+    type: number
+    desc: x-coordinate
+  - name: y
+    type: number
+    desc: y-coordinate
+  - name: w
+    type: number
+    desc: width (optional)
+  - name: h
+    type: number
+    desc: height (optional)
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "function shape(s, ...)\n  local mt = getmetatable(s)\n  if mt == Shape then return draw(s.id, ...) end\n  local own = __shapeKinds[mt]\n  if own then return own(s, ...) end\n  if s == nil then return end         -- a shape that didn't load: draw nothing, as with a missing image\n  error(\"shape() expects a shape from loadShape() or createShape()\", 2)\nend"
+- slug: shapeMode
+  name: shapeMode()
+  cat_tag: Shape / Loading & Displaying
+  description: Modifies the location from which shapes are drawn. Default is CORNER.
+  related:
+  - shape
+  syntax: shapeMode(mode)
+  params:
+  - name: mode
+    type: number
+    desc: CORNER, CORNERS, or CENTER
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - function shapeMode(m) mode = m engineShapeMode(m) end
+- slug: abs
+  name: abs()
+  cat_tag: Math / Calculation
+  description: Calculates the absolute value (magnitude) of a number.
+  related:
+  - sq
+  - sqrt
+  syntax: abs(x)
+  params:
+  - name: x
+    type: number
+    desc: number to process
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - abs, floor, ceil, sqrt, exp   = math.abs, math.floor, math.ceil, math.sqrt, math.exp
+- slug: ceil
+  name: ceil()
+  cat_tag: Math / Calculation
+  description: Calculates the closest integer that is greater than or equal to the value of the parameter.
+  related:
+  - floor
+  - round
+  syntax: ceil(x)
+  params:
+  - name: x
+    type: number
+    desc: number to evaluate
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - abs, floor, ceil, sqrt, exp   = math.abs, math.floor, math.ceil, math.sqrt, math.exp
+- slug: constrain
+  name: constrain()
+  cat_tag: Math / Calculation
+  description: Constrains a value to not exceed a maximum and minimum value.
+  related:
+  - min
+  - max
+  - map
+  syntax: constrain(v, lo, hi)
+  params:
+  - name: v
+    type: number
+    desc: the value to constrain
+  - name: lo
+    type: number
+    desc: minimum limit
+  - name: hi
+    type: number
+    desc: maximum limit
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - "-- written out by hand so constrain(v, 10, 0) can't blow up\nfunction constrain(v, lo, hi)\n  if v < lo then return lo elseif v > hi then return hi else return v end\nend"
+- slug: dist
+  name: dist()
+  cat_tag: Math / Calculation
+  description: Calculates the distance between two points. Supports 2D and 3D.
+  related:
+  - mag
+  syntax: 'dist(x1, y1, x2, y2)
+
+    dist(x1, y1, z1, x2, y2, z2)'
+  params:
+  - name: x1/y1
+    type: number
+    desc: x,y of the first point
+  - name: x2/y2
+    type: number
+    desc: x,y of the second point
+  - name: z1/z2
+    type: number
+    desc: z-coordinates (optional, 3D)
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - "function dist(x1, y1, x2, y2)\n  local dx, dy = x2 - x1, y2 - y1\n  return math.sqrt(dx * dx + dy * dy)\nend"
+- slug: exp
+  name: exp()
+  cat_tag: Math / Calculation
+  description: Returns Euler's number e raised to the power of the parameter.
+  related:
+  - log
+  - pow
+  syntax: exp(x)
+  params:
+  - name: x
+    type: number
+    desc: exponent
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - abs, floor, ceil, sqrt, exp   = math.abs, math.floor, math.ceil, math.sqrt, math.exp
+- slug: floor
+  name: floor()
+  cat_tag: Math / Calculation
+  description: Calculates the closest integer that is less than or equal to the value of the parameter.
+  related:
+  - ceil
+  - round
+  syntax: floor(x)
+  params:
+  - name: x
+    type: number
+    desc: number to evaluate
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - abs, floor, ceil, sqrt, exp   = math.abs, math.floor, math.ceil, math.sqrt, math.exp
+- slug: lerp
+  name: lerp()
+  cat_tag: Math / Calculation
+  description: Calculates a number between two numbers at a specific increment. amt 0.0 returns a, amt 1.0 returns b.
+  related:
+  - map
+  - norm
+  - lerpColor
+  syntax: lerp(a, b, t)
+  params:
+  - name: a
+    type: number
+    desc: first value
+  - name: b
+    type: number
+    desc: second value
+  - name: t
+    type: number
+    desc: between 0.0 and 1.0
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function lerp(a, b, t)          return a + (b - a) * t end
+- slug: log
+  name: log()
+  cat_tag: Math / Calculation
+  description: Calculates the natural logarithm (base e) of a number.
+  related:
+  - exp
+  syntax: log(x)
+  params:
+  - name: x
+    type: number
+    desc: number greater than 0
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - min, max, log                 = math.min, math.max, math.log
+- slug: mag
+  name: mag()
+  cat_tag: Math / Calculation
+  description: Calculates the magnitude (length) of a vector. Supports 2D and 3D.
+  related:
+  - dist
+  syntax: 'mag(x, y)
+
+    mag(x, y, z)'
+  params:
+  - name: x
+    type: number
+    desc: x component
+  - name: y
+    type: number
+    desc: y component
+  - name: z
+    type: number
+    desc: z component (optional)
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function mag(x, y) return math.sqrt(x * x + y * y) end
+- slug: map
+  name: map()
+  cat_tag: Math / Calculation
+  description: Re-maps a number from one range to another.
+  related:
+  - norm
+  - lerp
+  - constrain
+  syntax: map(value, start1, stop1, start2, stop2)
+  params:
+  - name: value
+    type: number
+    desc: the incoming value to be converted
+  - name: start1
+    type: number
+    desc: lower bound of the input range
+  - name: stop1
+    type: number
+    desc: upper bound of the input range
+  - name: start2
+    type: number
+    desc: lower bound of the output range
+  - name: stop2
+    type: number
+    desc: upper bound of the output range
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function map(v, a1, b1, a2, b2) return a2 + (v - a1) / (b1 - a1) * (b2 - a2) end
+- slug: max
+  name: max()
+  cat_tag: Math / Calculation
+  description: Determines the largest value in a sequence of numbers. Supports two or three arguments.
+  related:
+  - min
+  - constrain
+  syntax: 'max(a, b)
+
+    max(a, b, c)'
+  params:
+  - name: a
+    type: number
+    desc: first value
+  - name: b
+    type: number
+    desc: second value
+  - name: c
+    type: number
+    desc: third value (optional)
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - min, max, log                 = math.min, math.max, math.log
+- slug: min
+  name: min()
+  cat_tag: Math / Calculation
+  description: Determines the smallest value in a sequence of numbers. Supports two or three arguments.
+  related:
+  - max
+  - constrain
+  syntax: 'min(a, b)
+
+    min(a, b, c)'
+  params:
+  - name: a
+    type: number
+    desc: first value
+  - name: b
+    type: number
+    desc: second value
+  - name: c
+    type: number
+    desc: third value (optional)
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - min, max, log                 = math.min, math.max, math.log
+- slug: norm
+  name: norm()
+  cat_tag: Math / Calculation
+  description: Normalizes a number from a range into a value between 0.0 and 1.0.
+  related:
+  - map
+  - lerp
+  syntax: norm(v, lo, hi)
+  params:
+  - name: v
+    type: number
+    desc: incoming value
+  - name: lo
+    type: number
+    desc: lower bound
+  - name: hi
+    type: number
+    desc: upper bound
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function norm(v, a, b)          return (v - a) / (b - a) end
+- slug: pow
+  name: pow()
+  cat_tag: Math / Calculation
+  description: Facilitates exponential expressions. Calculates b raised to the power e.
+  related:
+  - sqrt
+  - sq
+  - exp
+  syntax: pow(b, e)
+  params:
+  - name: b
+    type: number
+    desc: base of the expression
+  - name: e
+    type: number
+    desc: power by which to raise the base
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function pow(b, e)   return b ^ e end
+- slug: round
+  name: round()
+  cat_tag: Math / Calculation
+  description: Calculates the integer closest to the parameter.
+  related:
+  - floor
+  - ceil
+  syntax: round(x)
+  params:
+  - name: x
+    type: number
+    desc: number to round
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function round(v)    return math.floor(v + 0.5) end
+- slug: sq
+  name: sq()
+  cat_tag: Math / Calculation
+  description: Squares a number (multiplies a number by itself). Same as x*x.
+  related:
+  - sqrt
+  - pow
+  - abs
+  syntax: sq(x)
+  params:
+  - name: x
+    type: number
+    desc: number to square
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function sq(v)       return v * v end
+- slug: sqrt
+  name: sqrt()
+  cat_tag: Math / Calculation
+  description: Calculates the square root of a number.
+  related:
+  - sq
+  - pow
+  syntax: sqrt(x)
+  params:
+  - name: x
+    type: number
+    desc: non-negative number
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - abs, floor, ceil, sqrt, exp   = math.abs, math.floor, math.ceil, math.sqrt, math.exp
+- slug: acos
+  name: acos()
+  cat_tag: Math / Trigonometry
+  description: The inverse of cos, returns the arc cosine of a value.
+  related:
+  - cos
+  - asin
+  - atan
+  syntax: acos(x)
+  params:
+  - name: x
+    type: number
+    desc: value between -1 and 1
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - asin, acos, atan              = math.asin, math.acos, math.atan
+- slug: asin
+  name: asin()
+  cat_tag: Math / Trigonometry
+  description: The inverse of sin, returns the arc sine of a value.
+  related:
+  - sin
+  - acos
+  - atan
+  syntax: asin(x)
+  params:
+  - name: x
+    type: number
+    desc: value between -1 and 1
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - asin, acos, atan              = math.asin, math.acos, math.atan
+- slug: atan2
+  name: atan2()
+  cat_tag: Math / Trigonometry
+  description: Calculates the angle formed by a point relative to the positive x-axis. More useful than atan for full-circle angles.
+  related:
+  - atan
+  - sin
+  - cos
+  syntax: atan2(y, x)
+  params:
+  - name: y
+    type: number
+    desc: y-coordinate
+  - name: x
+    type: number
+    desc: x-coordinate
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - function atan2(y, x) return math.atan(y, x) end
+- slug: atan
+  name: atan()
+  cat_tag: Math / Trigonometry
+  description: The inverse of tan, returns the arc tangent of a value.
+  related:
+  - tan
+  - atan2
+  - asin
+  - acos
+  syntax: atan(x)
+  params:
+  - name: x
+    type: number
+    desc: value
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - asin, acos, atan              = math.asin, math.acos, math.atan
+- slug: cos
+  name: cos()
+  cat_tag: Math / Trigonometry
+  description: Calculates the cosine of an angle in radians.
+  related:
+  - sin
+  - tan
+  - radians
+  syntax: cos(angle)
+  params:
+  - name: angle
+    type: number
+    desc: angle in radians
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - sin, cos, tan                 = math.sin, math.cos, math.tan
+- slug: degrees
+  name: degrees()
+  cat_tag: Math / Trigonometry
+  description: Converts a radian measurement to its corresponding value in degrees.
+  related:
+  - radians
+  syntax: degrees(r)
+  params:
+  - name: r
+    type: number
+    desc: angle in radians
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - degrees, radians              = math.deg, math.rad
+- slug: radians
+  name: radians()
+  cat_tag: Math / Trigonometry
+  description: Converts a degree measurement to its corresponding value in radians.
+  related:
+  - degrees
+  syntax: radians(d)
+  params:
+  - name: d
+    type: number
+    desc: angle in degrees
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - degrees, radians              = math.deg, math.rad
+- slug: sin
+  name: sin()
+  cat_tag: Math / Trigonometry
+  description: Calculates the sine of an angle in radians.
+  related:
+  - cos
+  - tan
+  - radians
+  syntax: sin(angle)
+  params:
+  - name: angle
+    type: number
+    desc: angle in radians
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - sin, cos, tan                 = math.sin, math.cos, math.tan
+- slug: tan
+  name: tan()
+  cat_tag: Math / Trigonometry
+  description: Calculates the ratio of the sine and cosine of an angle.
+  related:
+  - sin
+  - cos
+  syntax: tan(angle)
+  params:
+  - name: angle
+    type: number
+    desc: angle in radians
+  returns: number
+  uth:
+  - - runner/src/prelude.lua
+    - sin, cos, tan                 = math.sin, math.cos, math.tan
+- slug: noise
+  name: noise()
+  cat_tag: Math / Random
+  description: Returns the Perlin noise value at specified coordinates. Produces smoother and more natural sequences than random().
+  related:
+  - noiseSeed
+  - noiseDetail
+  - random
+  syntax: 'noise(x)
+
+    noise(x, y)
+
+    noise(x, y, z)'
+  params:
+  - name: x
+    type: number
+    desc: x-coordinate in noise space
+  - name: y
+    type: number
+    desc: y-coordinate (optional)
+  - name: z
+    type: number
+    desc: z-coordinate (optional)
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"noise\", lua.create_function(|_, args: LuaMultiValue| {\n    let vals: Vec<f32> = args.iter().filter_map(|v| v.to_num()).collect();\n    let at = |i: usize| vals.get(i).copied().unwrap_or(0.0);\n    Ok(processing::noise3(at(0), at(1), at(2)) as f64)\n})?)?;"
+- slug: noiseDetail
+  name: noiseDetail()
+  cat_tag: Math / Random
+  description: Adjusts the character and level of detail produced by the Perlin noise function.
+  related:
+  - noise
+  - noiseSeed
+  syntax: noiseDetail(octaves, falloff)
+  params:
+  - name: octaves
+    type: number
+    desc: number of octaves (1-8 typical)
+  - name: falloff
+    type: number
+    desc: falloff factor for each octave (default 0.5)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"noiseDetail\", lua.create_function(|_, (oct, fall): (i32, Option<f32>)| {\n    processing::noise_detail(oct, fall.unwrap_or(0.5)); Ok(())\n})?)?;"
+- slug: noiseSeed
+  name: noiseSeed()
+  cat_tag: Math / Random
+  description: Sets the seed value for noise().
+  related:
+  - noise
+  - noiseDetail
+  syntax: noiseSeed(seed)
+  params:
+  - name: seed
+    type: number
+    desc: seed value
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"noiseSeed\", lua.create_function(|_, seed: LuaValue| {\n    processing::noise_seed(num(&seed, \"noiseSeed()\")? as i64 as u64); Ok(())\n})?)?;"
+- slug: randomGaussian
+  name: randomGaussian()
+  cat_tag: Math / Random
+  description: Returns a float from a random series of numbers having a mean of 0 and standard deviation of 1.
+  related:
+  - random
+  - randomSeed
+  syntax: randomGaussian()
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"randomGaussian\", lua.create_function(|_, ()| {\n    Ok(processing::random_gaussian())\n})?)?;"
+- slug: randomSeed
+  name: randomSeed()
+  cat_tag: Math / Random
+  description: Sets the seed value for random(). Repeated calls with the same seed will produce the same sequence.
+  related:
+  - random
+  syntax: randomSeed(s)
+  params:
+  - name: s
+    type: number
+    desc: seed value
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"randomSeed\", lua.create_function(|_, seed: LuaValue| {\n    processing::random_seed(num(&seed, \"randomSeed()\")? as i64 as u64); Ok(())\n})?)?;"
+- slug: random
+  name: random()
+  cat_tag: Math / Random
+  description: Generates random numbers. With one argument, returns a value from 0 up to (but not including) the parameter. With two arguments, returns a value from the first to the second.
+  related:
+  - randomSeed
+  - noise
+  - randomGaussian
+  syntax: 'random(high)
+
+    random(low, high)'
+  params:
+  - name: high
+    type: number
+    desc: upper bound
+  - name: low
+    type: number
+    desc: lower bound (optional)
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"random\", lua.create_function(|_, args: LuaMultiValue| {\n    let vals: Vec<f32> = args.iter().filter_map(|v| v.to_num()).collect();\n    Ok(match vals.len() {\n        0 => processing::random1(),\n        1 => processing::random1() * vals[0],\n        _ => vals[0] + processing::random1() * (vals[1] - vals[0]),\n    })\n})?)?;"
+- slug: createOutput
+  name: createOutput()
+  cat_tag: Output / Files
+  description: Opens a file for binary writing. Returns a ofstream handle.
+  related:
+  - saveBytes
+  - createInput
+  syntax: createOutput(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the file
+  returns: std::ofstream
+  uth:
+  - - runner/src/prelude.lua
+    - "function createOutput(path)\n  local f, why = io.open(path, \"wb\")\n  if not f then io.stderr:write(\"createOutput: could not write \" .. tostring(path) .. \" (\" .. tostring(why) .. \")\\n\") end\n  return f\nend"
+- slug: createWriter
+  name: createWriter()
+  cat_tag: Output / Files
+  description: Creates a PrintWriter object for writing text to a file.
+  related:
+  - PrintWriter_class
+  - saveStrings
+  syntax: createWriter(path)
+  params:
+  - name: path
+    type: string
+    desc: path to the file
+  returns: PrintWriter
+  uth:
+  - - runner/src/prelude.lua
+    - "function createWriter(path)\n  local dir = tostring(path):match(\"^(.*)/[^/]*$\")\n  if dir and dir ~= \"\" then os.execute((package.config:sub(1, 1) == \"\\\\\" and 'mkdir \"' or 'mkdir -p \"') .. dir .. '\"') end\n  local f, why = io.open(path, \"w\")\n  if not f then io.stderr:write(\"createWriter: \" .. tostring(why) .. \"\\n\") end\n  return setmetatable({ f = f }, Writer)\nend"
+- slug: saveBytes
+  name: saveBytes()
+  cat_tag: Output / Files
+  description: Writes a vector of bytes to a file.
+  related:
+  - loadBytes
+  - saveStrings
+  syntax: saveBytes(path, data)
+  params:
+  - name: path
+    type: string
+    desc: path to write to
+  - name: data
+    type: table
+    desc: bytes to write
+  returns: boolean
+  uth:
+  - - runner/src/prelude.lua
+    - "-- saveBytes(\"file\", list): each number becomes one byte\nfunction saveBytes(path, list)\n  local f, why = io.open(path, \"wb\")\n  if not f then io.stderr:write(\"saveBytes: could not write \" .. tostring(path) .. \" (\" .. tostring(why) .. \")\\n\") return false end\n  local parts = {}\n  for i, b in ipairs(list) do parts[i] = string.char(math.floor(b) % 256) end\n  f:write(table.concat(parts)) f:close()\n  return true\nend"
+- slug: saveJSONArray
+  name: saveJSONArray()
+  cat_tag: Output / Files
+  description: Saves a JSONValue array to a file.
+  related:
+  - loadJSONArray
+  - saveJSONObject
+  syntax: saveJSONArray(path, v, indent)
+  params:
+  - name: path
+    type: string
+    desc: path to write to
+  - name: v
+    type: JSONValue
+    desc: the JSON array value
+  - name: indent
+    type: number
+    desc: indentation spaces (default 2)
+  returns: boolean
+  uth:
+  - - runner/src/prelude.lua
+    - function saveJSONArray(value, path) return saveJSON(path, value) end
+- slug: saveJSONObject
+  name: saveJSONObject()
+  cat_tag: Output / Files
+  description: Saves a JSONValue to a file as formatted JSON.
+  related:
+  - loadJSONObject
+  - saveJSONArray
+  syntax: saveJSONObject(path, v, indent)
+  params:
+  - name: path
+    type: string
+    desc: path to write to
+  - name: v
+    type: JSONValue
+    desc: the JSON value
+  - name: indent
+    type: number
+    desc: indentation spaces (default 2)
+  returns: boolean
+  uth:
+  - - runner/src/prelude.lua
+    - function saveJSONObject(value, path) return saveJSON(path, value) end
+- slug: saveStrings
+  name: saveStrings()
+  cat_tag: Output / Files
+  description: Writes an array of strings to a file, one per line.
+  related:
+  - loadStrings
+  - saveBytes
+  syntax: saveStrings(path, lines)
+  params:
+  - name: path
+    type: string
+    desc: path to write to
+  - name: lines
+    type: table
+    desc: strings to write
+  returns: boolean
+  uth:
+  - - runner/src/prelude.lua
+    - "function saveStrings(path, lines)\n  local f, why = io.open(path, \"w\")\n  if not f then\n    io.stderr:write(\"saveStrings: could not write \" .. tostring(path) .. \" (\" .. tostring(why) .. \")\\n\")\n    return false\n  end\n  for _, line in ipairs(lines) do f:write(tostring(line), \"\\n\") end\n  f:close()\n  return true\nend"
+- slug: saveTable
+  name: saveTable()
+  cat_tag: Output / Files
+  description: Saves a Table to a CSV or TSV file.
+  related:
+  - loadTable
+  syntax: saveTable(path, t, ext)
+  params:
+  - name: path
+    type: string
+    desc: path to write to
+  - name: t
+    type: Table
+    desc: the table to save
+  - name: ext
+    type: string
+    desc: '"csv" or "tsv" (default csv)'
+  returns: boolean
+  uth:
+  - - runner/src/prelude.lua
+    - "function saveTable(t, path, opts)\n  if getmetatable(t) ~= Table then error(\"saveTable() expects a table from loadTable() or createTable()\", 2) end\n  local _, sep = options(opts, path)\n  local function field(v)\n    v = v == nil and \"\" or tostring(v)\n    if v:find('[\",\\t\\r\\n]') then v = '\"' .. v:gsub('\"', '\"\"') .. '\"' end\n    return v\n  end\n  local f, why = io.open(path, \"w\")\n  if not f then\n    io.stderr:write(\"saveTable: could not write \" .. tostring(path) .. \" (\" .. tostring(why) .. \")\\n\")\n    return false\n  end\n  local line = {}\n  if t.header then\n    for c = 0, t.columns - 1 do line[c + 1] = field(t.titles[c]) end\n    f:write(table.concat(line, sep), \"\\n\")\n  end\n  for r = 0, t.count - 1 do\n    for c = 0, t.columns - 1 do line[c + 1] = field(t.data[r][c]) end\n    f:write(table.concat(line, sep), \"\\n\")\n  end\n  f:close()\n  return true\nend"
+- slug: saveXML
+  name: saveXML()
+  cat_tag: Output / Files
+  description: Saves an XML object to a file.
+  related:
+  - loadXML
+  - parseXML
+  - XML_class
+  syntax: saveXML(path, x)
+  params:
+  - name: path
+    type: string
+    desc: path to write to
+  - name: x
+    type: XML
+    desc: the XML object to save
+  returns: boolean
+  uth:
+  - - runner/src/prelude.lua
+    - "function saveXML(xml, path)\n  local f = io.open(path, \"w\")\n  if not f then io.stderr:write(\"saveXML: could not write \" .. tostring(path) .. \"\\n\") return false end\n  f:write('<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n', xml:format(2))\n  f:close()\n  return true\nend"
+- slug: selectOutput
+  name: selectOutput()
+  cat_tag: Output / Files
+  description: Opens a file chooser dialog to select an output file. Returns the path.
+  related:
+  - selectInput
+  - selectFolder
+  syntax: selectOutput(prompt, filter)
+  params:
+  - name: prompt
+    type: string
+    desc: dialog message
+  - name: filter
+    type: string
+    desc: file extension filter (optional)
+  returns: string
+  uth: []
+- slug: print
+  name: print()
+  cat_tag: Output / Text Area
+  description: Writes to the console. Does not add a newline. Accepts any type.
+  related:
+  - println
+  syntax: print(v)
+  params:
+  - name: v
+    type: any
+    desc: the value to print
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"print\", lua.create_function(|lua, args: LuaMultiValue| {\n    let tostring: LuaFunction = lua.globals().get(\"tostring\")?;\n    let mut line: Vec<u8> = Vec::new();\n    for (i, v) in args.into_iter().enumerate() {\n        if i > 0 { line.push(b'\\t'); }\n        // bytes, not String: a Lua string doesn't have to be valid UTF-8\n        line.extend_from_slice(tostring.call::<_, LuaString>(v)?.as_bytes());\n    }\n    line.push(b'\\n');\n    let mut out = std::io::stdout().lock();\n    if out.write_all(&line).and_then(|_| out.flush()).is_err() {\n        // Nobody is reading any more: the IDE that started us is gone.\n        processing::exit_with(0);\n    }\n    Ok(())\n})?)?;"
+- slug: printArray
+  name: printArray()
+  cat_tag: Output / Text Area
+  description: Prints the contents of a vector to the console with indices.
+  related:
+  - println
+  syntax: printArray(a)
+  params:
+  - name: a
+    type: table
+    desc: the vector to print
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "-- printArray({ \"a\", \"b\" }) prints \"[1] a\" and \"[2] b\", one per line\nfunction printArray(list)\n  if type(list) ~= \"table\" then return print(list) end\n  for i, v in ipairs(list) do print(\"[\" .. i .. \"] \" .. tostring(v)) end\nend"
+- slug: println
+  name: println()
+  cat_tag: Output / Text Area
+  description: Writes to the console, followed by a newline. Call with no args for a blank line.
+  related:
+  - print
+  syntax: 'println()
+
+    println(v)'
+  params:
+  - name: v
+    type: any
+    desc: the value to print (optional)
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - println = print
+- slug: save
+  name: save()
+  cat_tag: Output / Image
+  description: Saves an image from the display window. The filename must include an extension (PNG, JPG).
+  related:
+  - saveFrame
+  syntax: save(filename)
+  params:
+  - name: filename
+    type: string
+    desc: filename with extension
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - function save(name) saveFrame(name or "screen.png") end
+- slug: saveFrame
+  name: saveFrame()
+  cat_tag: Output / Image
+  description: 'Saves a numbered image file. Use #### as a placeholder for the frame number.'
+  related:
+  - save
+  syntax: saveFrame(filename)
+  params:
+  - name: filename
+    type: string
+    desc: filename template, e.g. frame-####.png
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"saveFrame\", lua.create_function(|_, name: Option<String>| {\n    processing::save_frame(&name.unwrap_or_else(|| \"screen-####.png\".into())); Ok(())\n})?)?;"
+- slug: alpha
+  name: alpha()
+  cat_tag: Color / Creating & Reading
+  description: Extracts the alpha value from a color.
+  related:
+  - red
+  - green
+  - blue
+  syntax: alpha(c)
+  params:
+  - name: c
+    type: color
+    desc: any color value
+  returns: number
+  uth: []
+- slug: blue
+  name: blue()
+  cat_tag: Color / Creating & Reading
+  description: Extracts the blue value from a color.
+  related:
+  - red
+  - green
+  - alpha
+  syntax: blue(c)
+  params:
+  - name: c
+    type: color
+    desc: any color value
+  returns: number
+  uth: []
+- slug: brightness
+  name: brightness()
+  cat_tag: Color / Creating & Reading
+  description: Extracts the brightness value from a color (HSB mode).
+  related:
+  - hue
+  - saturation
+  - colorMode
+  syntax: brightness(c)
+  params:
+  - name: c
+    type: color
+    desc: any color value
+  returns: number
+  uth: []
+- slug: color_fn
+  name: color()
+  cat_tag: Color / Creating & Reading
+  description: Creates colors for storing in variables. Respects the current colorMode.
+  related:
+  - fill
+  - stroke
+  - lerpColor
+  syntax: 'color(gray)
+
+    color(gray, a)
+
+    color(r, g, b)
+
+    color(r, g, b, a)'
+  params:
+  - name: gray
+    type: number
+    desc: grayscale value
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: a
+    type: number
+    desc: alpha (optional)
+  returns: color
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"color\", lua.create_function(|_, args: LuaMultiValue| {\n    Ok(pack_color(unpack_color(args)))\n})?)?;"
+- slug: green
+  name: green()
+  cat_tag: Color / Creating & Reading
+  description: Extracts the green value from a color.
+  related:
+  - red
+  - blue
+  - alpha
+  syntax: green(c)
+  params:
+  - name: c
+    type: color
+    desc: any color value
+  returns: number
+  uth: []
+- slug: hue
+  name: hue()
+  cat_tag: Color / Creating & Reading
+  description: Extracts the hue value from a color (HSB mode).
+  related:
+  - saturation
+  - brightness
+  - colorMode
+  syntax: hue(c)
+  params:
+  - name: c
+    type: color
+    desc: any color value
+  returns: number
+  uth: []
+- slug: lerpColor
+  name: lerpColor()
+  cat_tag: Color / Creating & Reading
+  description: Calculates a color between two colors at a specific increment.
+  related:
+  - lerp
+  - color_fn
+  syntax: lerpColor(c1, c2, t)
+  params:
+  - name: c1
+    type: color
+    desc: interpolate from this color
+  - name: c2
+    type: color
+    desc: interpolate to this color
+  - name: t
+    type: number
+    desc: between 0.0 and 1.0
+  returns: color
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"lerpColor\", lua.create_function(|_, args: LuaMultiValue| {\n    let v: Vec<LuaValue> = args.into_iter().collect();\n    if v.len() == 3 {\n        let (a, b) = (color_arg(&v[0]), color_arg(&v[1]));\n        let t = (num(&v[2], \"lerpColor()\")? as f32).clamp(0.0, 1.0);\n        let mix = [0, 1, 2, 3].map(|i| a[i] + (b[i] - a[i]) * t);\n        return Ok(LuaMultiValue::from_vec(vec![LuaValue::Integer(pack_color(mix))]));\n    }\n    if v.len() < 7 {\n        return Err(LuaError::RuntimeError(\n            \"lerpColor() expects (color, color, amount) or (r1, g1, b1, r2, g2, b2, amount)\".into()));\n    }\n    let n: Vec<f32> = v.iter().map(|x| x.to_num().unwrap_or(0.0)).collect();\n    let (r, g, b) = processing::lerp_color(n[0], n[1], n[2], n[3], n[4], n[5], n[6]);\n    Ok(LuaMultiValue::from_vec(vec![\n        LuaValue::Number(r as f64), LuaValue::Number(g as f64), LuaValue::Number(b as f64),\n    ]))\n})?)?;"
+- slug: red
+  name: red()
+  cat_tag: Color / Creating & Reading
+  description: Extracts the red value from a color.
+  related:
+  - green
+  - blue
+  - alpha
+  - hue
+  - saturation
+  - brightness
+  syntax: red(c)
+  params:
+  - name: c
+    type: color
+    desc: any color value
+  returns: number
+  uth: []
+- slug: saturation
+  name: saturation()
+  cat_tag: Color / Creating & Reading
+  description: Extracts the saturation value from a color (HSB mode).
+  related:
+  - hue
+  - brightness
+  - colorMode
+  syntax: saturation(c)
+  params:
+  - name: c
+    type: color
+    desc: any color value
+  returns: number
+  uth: []
+- slug: background
+  name: background()
+  cat_tag: Color / Setting
+  description: Sets the color used for the background of the Processing window. Called in draw() to clear the canvas each frame.
+  related:
+  - fill
+  - stroke
+  syntax: 'background(gray)
+
+    background(gray, a)
+
+    background(r, g, b)
+
+    background(r, g, b, a)
+
+    background(c)
+
+    background(img)'
+  params:
+  - name: gray
+    type: number
+    desc: grayscale value (0-255)
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: a
+    type: number
+    desc: alpha (optional)
+  - name: img
+    type: PImage
+    desc: image to use as background
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"background\", lua.create_function(|_, args: LuaMultiValue| {\n    let c = unpack_color(args);\n    processing::background(c[0], c[1], c[2], c[3]);\n    Ok(())\n})?)?;"
+- slug: clear
+  name: clear()
+  cat_tag: Color / Setting
+  description: Clears the pixels within a buffer. Equivalent to background with 0 alpha.
+  related:
+  - background
+  syntax: clear()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("clear", lua.create_function(|_, ()| { processing::clear(); Ok(()) })?)?;
+- slug: colorMode
+  name: colorMode()
+  cat_tag: Color / Setting
+  description: Changes the way Processing interprets color data. Default is RGB with range 0-255.
+  related:
+  - fill
+  - stroke
+  - background
+  syntax: 'colorMode(mode)
+
+    colorMode(mode, max)
+
+    colorMode(mode, mH, mS, mB, mA)'
+  params:
+  - name: mode
+    type: number
+    desc: RGB or HSB
+  - name: max
+    type: number
+    desc: range for all channels (optional)
+  - name: mH
+    type: number
+    desc: range for hue
+  - name: mS
+    type: number
+    desc: range for saturation
+  - name: mB
+    type: number
+    desc: range for brightness
+  - name: mA
+    type: number
+    desc: range for alpha
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"colorMode\", lua.create_function(|_, args: LuaMultiValue| {\n    let v: Vec<f32> = args.iter().filter_map(|a| a.to_num()).collect();\n    let mode = v.first().copied().unwrap_or(1.0) as i32;\n    processing::color_mode(mode, &v[1.min(v.len())..]);\n    Ok(())\n})?)?;"
+- slug: fill
+  name: fill()
+  cat_tag: Color / Setting
+  description: Sets the color used to fill shapes.
+  related:
+  - noFill
+  - stroke
+  - background
+  syntax: 'fill(gray)
+
+    fill(gray, a)
+
+    fill(r, g, b)
+
+    fill(r, g, b, a)
+
+    fill(c)'
+  params:
+  - name: gray
+    type: number
+    desc: grayscale value
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: a
+    type: number
+    desc: alpha (optional)
+  - name: c
+    type: color
+    desc: a color value
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"fill\", lua.create_function(|_, args: LuaMultiValue| {\n    let c = unpack_color(args);\n    processing::fill(c[0], c[1], c[2], c[3]);\n    Ok(())\n})?)?;"
+- slug: noFill
+  name: noFill()
+  cat_tag: Color / Setting
+  description: Disables filling geometry. Shapes will only have a stroke outline.
+  related:
+  - fill
+  syntax: noFill()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"noFill\", lua.create_function(|_, ()| {\n    processing::no_fill();\n    Ok(())\n})?)?;"
+- slug: noStroke
+  name: noStroke()
+  cat_tag: Color / Setting
+  description: Disables drawing the stroke (outline).
+  related:
+  - stroke
+  syntax: noStroke()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"noStroke\", lua.create_function(|_, ()| {\n    processing::no_stroke();\n    Ok(())\n})?)?;"
+- slug: stroke
+  name: stroke()
+  cat_tag: Color / Setting
+  description: Sets the color used to draw lines and borders around shapes.
+  related:
+  - noStroke
+  - fill
+  - strokeWeight
+  syntax: 'stroke(gray)
+
+    stroke(gray, a)
+
+    stroke(r, g, b)
+
+    stroke(r, g, b, a)
+
+    stroke(c)'
+  params:
+  - name: gray
+    type: number
+    desc: grayscale value
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: a
+    type: number
+    desc: alpha (optional)
+  - name: c
+    type: color
+    desc: a color value
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"stroke\", lua.create_function(|_, args: LuaMultiValue| {\n    let c = unpack_color(args);\n    processing::stroke(c[0], c[1], c[2], c[3]);\n    Ok(())\n})?)?;"
+- slug: ambientLight
+  name: ambientLight()
+  cat_tag: Lights Camera / Lights
+  description: Adds an ambient light. Ambient light has no position or direction.
+  related:
+  - lights
+  - directionalLight
+  - pointLight
+  syntax: 'ambientLight(r, g, b)
+
+    ambientLight(r, g, b, x, y, z)'
+  params:
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: x/y/z
+    type: number
+    desc: position (optional)
+  returns: ''
+  uth: []
+- slug: directionalLight
+  name: directionalLight()
+  cat_tag: Lights Camera / Lights
+  description: Adds a directional light. Comes uniformly from one direction, like sunlight.
+  related:
+  - lights
+  - ambientLight
+  - pointLight
+  - spotLight
+  syntax: directionalLight(r, g, b, nx, ny, nz)
+  params:
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: nx
+    type: number
+    desc: x direction
+  - name: ny
+    type: number
+    desc: y direction
+  - name: nz
+    type: number
+    desc: z direction
+  returns: ''
+  uth: []
+- slug: lightFalloff
+  name: lightFalloff()
+  cat_tag: Lights Camera / Lights
+  description: Sets the falloff rates for point lights, spot lights, and ambient lights.
+  related:
+  - lights
+  - pointLight
+  syntax: lightFalloff(constant, linear, quadratic)
+  params:
+  - name: constant
+    type: number
+    desc: constant falloff factor
+  - name: linear
+    type: number
+    desc: linear falloff factor
+  - name: quadratic
+    type: number
+    desc: quadratic falloff factor
+  returns: ''
+  uth: []
+- slug: lightSpecular
+  name: lightSpecular()
+  cat_tag: Lights Camera / Lights
+  description: Sets the specular color for lights. Affects materials with specular component.
+  related:
+  - specular
+  - lights
+  syntax: lightSpecular(r, g, b)
+  params:
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  returns: ''
+  uth: []
+- slug: lights
+  name: lights()
+  cat_tag: Lights Camera / Lights
+  description: Sets the default ambient light, directional light, falloff, and specular values. Equivalent to calling ambientLight() and directionalLight() with default parameters.
+  related:
+  - noLights
+  - ambientLight
+  - directionalLight
+  syntax: lights()
+  params: []
+  returns: ''
+  uth: []
+- slug: noLights
+  name: noLights()
+  cat_tag: Lights Camera / Lights
+  description: Disables all lighting. Geometry will be rendered flat with fill color only.
+  related:
+  - lights
+  syntax: noLights()
+  params: []
+  returns: ''
+  uth: []
+- slug: normal
+  name: normal()
+  cat_tag: Lights Camera / Lights
+  description: Sets the current normal vector. Used to specify the surface orientation for lighting calculations.
+  related:
+  - lights
+  - beginShape
+  syntax: normal(nx, ny, nz)
+  params:
+  - name: nx
+    type: number
+    desc: x component of normal
+  - name: ny
+    type: number
+    desc: y component of normal
+  - name: nz
+    type: number
+    desc: z component of normal
+  returns: ''
+  uth: []
+- slug: pointLight
+  name: pointLight()
+  cat_tag: Lights Camera / Lights
+  description: Adds a point light. Emanates from a specific position in all directions.
+  related:
+  - lights
+  - directionalLight
+  - spotLight
+  syntax: pointLight(r, g, b, x, y, z)
+  params:
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: x
+    type: number
+    desc: x-position
+  - name: y
+    type: number
+    desc: y-position
+  - name: z
+    type: number
+    desc: z-position
+  returns: ''
+  uth: []
+- slug: spotLight
+  name: spotLight()
+  cat_tag: Lights Camera / Lights
+  description: Adds a spotlight. Creates a cone of light from a specific position pointing in a direction.
+  related:
+  - lights
+  - pointLight
+  - directionalLight
+  syntax: spotLight(r, g, b, x, y, z, nx, ny, nz, angle, concentration)
+  params:
+  - name: r/g/b
+    type: number
+    desc: color components
+  - name: x/y/z
+    type: number
+    desc: position
+  - name: nx/ny/nz
+    type: number
+    desc: direction
+  - name: angle
+    type: number
+    desc: cone angle in radians
+  - name: concentration
+    type: number
+    desc: exponent determining center bias
+  returns: ''
+  uth: []
+- slug: ambient
+  name: ambient()
+  cat_tag: Lights Camera / Material Properties
+  description: Sets the ambient reflectance for shapes. Used with lighting.
+  related:
+  - lights
+  - specular
+  - emissive
+  - shininess
+  syntax: 'ambient(r, g, b)
+
+    ambient(c)'
+  params:
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: c
+    type: color
+    desc: a color value
+  returns: ''
+  uth: []
+- slug: emissive
+  name: emissive()
+  cat_tag: Lights Camera / Material Properties
+  description: Sets the emissive color of a shape. Emissive color appears to glow.
+  related:
+  - ambient
+  - specular
+  - shininess
+  syntax: 'emissive(r, g, b)
+
+    emissive(c)'
+  params:
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: c
+    type: color
+    desc: a color value
+  returns: ''
+  uth: []
+- slug: shininess
+  name: shininess()
+  cat_tag: Lights Camera / Material Properties
+  description: Sets the amount of gloss in the surface of shapes. Used with specular().
+  related:
+  - specular
+  - ambient
+  - emissive
+  syntax: shininess(s)
+  params:
+  - name: s
+    type: number
+    desc: degree of shininess
+  returns: ''
+  uth: []
+- slug: specular
+  name: specular()
+  cat_tag: Lights Camera / Material Properties
+  description: Sets the specular color of the materials used for shapes drawn to the screen.
+  related:
+  - shininess
+  - ambient
+  - emissive
+  - lightSpecular
+  syntax: 'specular(r, g, b)
+
+    specular(c)'
+  params:
+  - name: r
+    type: number
+    desc: red component
+  - name: g
+    type: number
+    desc: green component
+  - name: b
+    type: number
+    desc: blue component
+  - name: c
+    type: color
+    desc: a color value
+  returns: ''
+  uth: []
+- slug: beginCamera
+  name: beginCamera()
+  cat_tag: Lights Camera / Camera
+  description: Opens a section of code that can include shapes to be rendered into the camera-space. Must be paired with endCamera().
+  related:
+  - endCamera
+  - camera
+  syntax: beginCamera()
+  params: []
+  returns: ''
+  uth: []
+- slug: camera
+  name: camera()
+  cat_tag: Lights Camera / Camera
+  description: Sets the position of the camera by defining the eye position, center of the scene, and up direction.
+  related:
+  - perspective
+  - ortho
+  - beginCamera
+  - endCamera
+  syntax: 'camera()
+
+    camera(eyeX, eyeY, eyeZ, centerX, centerY, centerZ, upX, upY, upZ)'
+  params:
+  - name: eyeX/Y/Z
+    type: number
+    desc: position of the camera eye
+  - name: centerX/Y/Z
+    type: number
+    desc: center of the scene
+  - name: upX/Y/Z
+    type: number
+    desc: up direction vector
+  returns: ''
+  uth: []
+- slug: endCamera
+  name: endCamera()
+  cat_tag: Lights Camera / Camera
+  description: Closes a camera definition started with beginCamera().
+  related:
+  - beginCamera
+  - camera
+  syntax: endCamera()
+  params: []
+  returns: ''
+  uth: []
+- slug: frustum
+  name: frustum()
+  cat_tag: Lights Camera / Camera
+  description: Sets a perspective matrix as defined by the parameters. An off-axis frustum.
+  related:
+  - perspective
+  - ortho
+  syntax: frustum(left, right, bottom, top, near, far)
+  params:
+  - name: left
+    type: number
+    desc: left coordinate of the clipping plane
+  - name: right
+    type: number
+    desc: right coordinate
+  - name: bottom
+    type: number
+    desc: bottom coordinate
+  - name: top
+    type: number
+    desc: top coordinate
+  - name: near
+    type: number
+    desc: near z-plane
+  - name: far
+    type: number
+    desc: far z-plane
+  returns: ''
+  uth: []
+- slug: ortho
+  name: ortho()
+  cat_tag: Lights Camera / Camera
+  description: Sets an orthographic projection, where objects appear flat and no foreshortening occurs.
+  related:
+  - perspective
+  - camera
+  syntax: 'ortho()
+
+    ortho(left, right, bottom, top, near, far)'
+  params:
+  - name: left
+    type: number
+    desc: left clipping plane
+  - name: right
+    type: number
+    desc: right clipping plane
+  - name: bottom
+    type: number
+    desc: bottom clipping plane
+  - name: top
+    type: number
+    desc: top clipping plane
+  - name: near
+    type: number
+    desc: near clipping plane
+  - name: far
+    type: number
+    desc: far clipping plane
+  returns: ''
+  uth: []
+- slug: perspective
+  name: perspective()
+  cat_tag: Lights Camera / Camera
+  description: Sets a perspective projection. Simulates natural foreshortening. No args sets default.
+  related:
+  - ortho
+  - camera
+  - frustum
+  syntax: 'perspective()
+
+    perspective(fov, aspect, zNear, zFar)'
+  params:
+  - name: fov
+    type: number
+    desc: field of view angle in radians
+  - name: aspect
+    type: number
+    desc: width/height ratio
+  - name: zNear
+    type: number
+    desc: near clipping plane
+  - name: zFar
+    type: number
+    desc: far clipping plane
+  returns: ''
+  uth: []
+- slug: printCamera
+  name: printCamera()
+  cat_tag: Lights Camera / Camera
+  description: Prints the current camera matrix to the console.
+  related:
+  - camera
+  - printProjection
+  syntax: printCamera()
+  params: []
+  returns: ''
+  uth: []
+- slug: printProjection
+  name: printProjection()
+  cat_tag: Lights Camera / Camera
+  description: Prints the current projection matrix to the console.
+  related:
+  - perspective
+  - printCamera
+  syntax: printProjection()
+  params: []
+  returns: ''
+  uth: []
+- slug: modelX
+  name: modelX()
+  cat_tag: Lights Camera / Coordinates
+  description: Returns the x-coordinate of a 3D point in model space after applying the current transformation matrix.
+  related:
+  - modelY
+  - modelZ
+  - screenX
+  syntax: modelX(x, y, z)
+  params:
+  - name: x
+    type: number
+    desc: 3D x-coordinate
+  - name: y
+    type: number
+    desc: 3D y-coordinate
+  - name: z
+    type: number
+    desc: 3D z-coordinate
+  returns: number
+  uth: []
+- slug: modelY
+  name: modelY()
+  cat_tag: Lights Camera / Coordinates
+  description: Returns the y-coordinate of a 3D point in model space after applying the current transformation matrix.
+  related:
+  - modelX
+  - modelZ
+  - screenY
+  syntax: modelY(x, y, z)
+  params:
+  - name: x
+    type: number
+    desc: 3D x-coordinate
+  - name: y
+    type: number
+    desc: 3D y-coordinate
+  - name: z
+    type: number
+    desc: 3D z-coordinate
+  returns: number
+  uth: []
+- slug: modelZ
+  name: modelZ()
+  cat_tag: Lights Camera / Coordinates
+  description: Returns the z-coordinate of a 3D point in model space after applying the current transformation matrix.
+  related:
+  - modelX
+  - modelY
+  - screenZ
+  syntax: modelZ(x, y, z)
+  params:
+  - name: x
+    type: number
+    desc: 3D x-coordinate
+  - name: y
+    type: number
+    desc: 3D y-coordinate
+  - name: z
+    type: number
+    desc: 3D z-coordinate
+  returns: number
+  uth: []
+- slug: screenX
+  name: screenX()
+  cat_tag: Lights Camera / Coordinates
+  description: Takes a three-dimensional X, Y, Z position and returns the X value for where it will appear on a 2D screen.
+  related:
+  - screenY
+  - screenZ
+  - modelX
+  syntax: screenX(x, y, z)
+  params:
+  - name: x
+    type: number
+    desc: 3D x-coordinate
+  - name: y
+    type: number
+    desc: 3D y-coordinate
+  - name: z
+    type: number
+    desc: 3D z-coordinate
+  returns: number
+  uth: []
+- slug: screenY
+  name: screenY()
+  cat_tag: Lights Camera / Coordinates
+  description: Takes a three-dimensional X, Y, Z position and returns the Y value for where it will appear on a 2D screen.
+  related:
+  - screenX
+  - screenZ
+  - modelY
+  syntax: screenY(x, y, z)
+  params:
+  - name: x
+    type: number
+    desc: 3D x-coordinate
+  - name: y
+    type: number
+    desc: 3D y-coordinate
+  - name: z
+    type: number
+    desc: 3D z-coordinate
+  returns: number
+  uth: []
+- slug: screenZ
+  name: screenZ()
+  cat_tag: Lights Camera / Coordinates
+  description: Takes a three-dimensional X, Y, Z position and returns the Z value for where it will appear on a 2D screen.
+  related:
+  - screenX
+  - screenY
+  - modelZ
+  syntax: screenZ(x, y, z)
+  params:
+  - name: x
+    type: number
+    desc: 3D x-coordinate
+  - name: y
+    type: number
+    desc: 3D y-coordinate
+  - name: z
+    type: number
+    desc: 3D z-coordinate
+  returns: number
+  uth: []
+- slug: applyMatrix
+  name: applyMatrix()
+  cat_tag: Transform
+  description: Multiplies the current matrix by the specified 4x4 matrix.
+  related:
+  - resetMatrix
+  - pushMatrix
+  syntax: applyMatrix(n00, n01, n02, n03, ...)
+  params:
+  - name: n00-n33
+    type: number
+    desc: 16 values of a 4x4 matrix
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "function applyMatrix(m, ...)\n  if type(m) == \"table\" then return set(m:array(), true) end\n  if select(\"#\", ...) == 5 then return set({ m, ... }, true) end\n  return apply3(m, ...)\nend"
+- slug: popMatrix
+  name: popMatrix()
+  cat_tag: Transform
+  description: Pops the current transformation matrix off the matrix stack.
+  related:
+  - pushMatrix
+  - push
+  - pop
+  syntax: popMatrix()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("popMatrix",  lua.create_function(|_, ()| { processing::pop_matrix();  Ok(()) })?)?;
+- slug: printMatrix
+  name: printMatrix()
+  cat_tag: Transform
+  description: Prints the current matrix to the console.
+  related:
+  - applyMatrix
+  - resetMatrix
+  syntax: printMatrix()
+  params: []
+  returns: ''
+  uth: []
+- slug: pushMatrix
+  name: pushMatrix()
+  cat_tag: Transform
+  description: Pushes the current transformation matrix onto the matrix stack.
+  related:
+  - popMatrix
+  - push
+  - pop
+  syntax: pushMatrix()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("pushMatrix", lua.create_function(|_, ()| { processing::push_matrix(); Ok(()) })?)?;
+- slug: resetMatrix
+  name: resetMatrix()
+  cat_tag: Transform
+  description: Replaces the current matrix with the identity matrix.
+  related:
+  - applyMatrix
+  - printMatrix
+  syntax: resetMatrix()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"resetMatrix\", lua.create_function(|_, ()| {\n    processing::reset_matrix(); Ok(())\n})?)?;"
+- slug: rotateX
+  name: rotateX()
+  cat_tag: Transform
+  description: Rotates around the x-axis. Use in P3D mode.
+  related:
+  - rotate
+  - rotateY
+  - rotateZ
+  syntax: rotateX(angle)
+  params:
+  - name: angle
+    type: number
+    desc: angle in radians
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("rotateX", lua.create_function(|_, a: f32| { let _ = processing::three("rotateX", &[a]); Ok(()) })?)?;'
+- slug: rotateY
+  name: rotateY()
+  cat_tag: Transform
+  description: Rotates around the y-axis. Use in P3D mode.
+  related:
+  - rotate
+  - rotateX
+  - rotateZ
+  syntax: rotateY(angle)
+  params:
+  - name: angle
+    type: number
+    desc: angle in radians
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("rotateY", lua.create_function(|_, a: f32| { let _ = processing::three("rotateY", &[a]); Ok(()) })?)?;'
+- slug: rotateZ
+  name: rotateZ()
+  cat_tag: Transform
+  description: Rotates around the z-axis. Use in P3D mode.
+  related:
+  - rotate
+  - rotateX
+  - rotateY
+  syntax: rotateZ(angle)
+  params:
+  - name: angle
+    type: number
+    desc: angle in radians
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("rotateZ", lua.create_function(|_, a: f32| { processing::rotate(a); Ok(()) })?)?;'
+- slug: rotate
+  name: rotate()
+  cat_tag: Transform
+  description: Rotates a shape by the angle parameter. Angles are in radians.
+  related:
+  - rotateX
+  - rotateY
+  - rotateZ
+  - translate
+  - scale
+  syntax: rotate(angle)
+  params:
+  - name: angle
+    type: number
+    desc: angle in radians
+  returns: ''
+  uth: []
+- slug: scale
+  name: scale()
+  cat_tag: Transform
+  description: Increases or decreases the size of shapes by expanding and contracting vertices.
+  related:
+  - translate
+  - rotate
+  syntax: 'scale(s)
+
+    scale(sx, sy)'
+  params:
+  - name: s
+    type: number
+    desc: percentage to scale uniformly
+  - name: sx
+    type: number
+    desc: x-axis scale factor
+  - name: sy
+    type: number
+    desc: y-axis scale factor
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"scale\", lua.create_function(|_, args: LuaMultiValue| {\n    let vals: Vec<f32> = args.iter()\n        .filter_map(|v| v.to_num())\n        .collect();\n    match vals.len() {\n        0 => return Err(LuaError::RuntimeError(\"scale() expects one or two numbers\".into())),\n        1 => processing::scale_uniform(vals[0]),\n        2 => processing::scale(vals[0], vals[1]),\n        _ => processing::scale3(vals[0], vals[1], vals[2]),\n    }\n    Ok(())\n})?)?;"
+- slug: shearX
+  name: shearX()
+  cat_tag: Transform
+  description: Shears a shape around the x-axis the amount specified by the angle parameter.
+  related:
+  - shearY
+  - translate
+  syntax: shearX(angle)
+  params:
+  - name: angle
+    type: number
+    desc: angle in radians
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("shearX", lua.create_function(|_, a: f32| { processing::shear_x(a); Ok(()) })?)?;'
+- slug: shearY
+  name: shearY()
+  cat_tag: Transform
+  description: Shears a shape around the y-axis the amount specified by the angle parameter.
+  related:
+  - shearX
+  - translate
+  syntax: shearY(angle)
+  params:
+  - name: angle
+    type: number
+    desc: angle in radians
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - 'g.set("shearY", lua.create_function(|_, a: f32| { processing::shear_y(a); Ok(()) })?)?;'
+- slug: translate
+  name: translate()
+  cat_tag: Transform
+  description: Specifies an amount to displace objects. Supports 2D and 3D.
+  related:
+  - rotate
+  - scale
+  - push
+  - pop
+  syntax: 'translate(x, y)
+
+    translate(x, y, z)'
+  params:
+  - name: x
+    type: number
+    desc: left/right displacement
+  - name: y
+    type: number
+    desc: up/down displacement
+  - name: z
+    type: number
+    desc: forward/backward displacement (optional, 3D)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"translate\", lua.create_function(|_, (x, y, z): (f32, f32, Option<f32>)| {\n    processing::translate3(x, y, z.unwrap_or(0.0)); Ok(())\n})?)?;"
+- slug: draw
+  name: draw()
+  cat_tag: Structure
+  description: Continuously executes the code inside its block until the program is stopped or noLoop() is called.
+  related:
+  - setup
+  - noLoop
+  - loop
+  - redraw
+  syntax: "function draw()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: exit
+  name: exit()
+  cat_tag: Structure
+  description: Quits the sketch. Internally calls exit_sketch().
+  related:
+  - setup
+  syntax: exit()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"exit\", lua.create_function(|_, ()| {\n    processing::exit(); Ok(())\n})?)?;"
+- slug: loop
+  name: loop()
+  cat_tag: Structure
+  description: Causes Processing to continuously execute the code within draw().
+  related:
+  - noLoop
+  - draw
+  - redraw
+  syntax: loop()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - function loop() looping = true return loopOn() end
+- slug: noLoop
+  name: noLoop()
+  cat_tag: Structure
+  description: Stops Processing from continuously executing the code within draw(). draw() is called once and then stops.
+  related:
+  - loop
+  - draw
+  - redraw
+  syntax: noLoop()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - function noLoop() looping = false return loopOff() end
+- slug: pop
+  name: pop()
+  cat_tag: Structure
+  description: Restores the previous drawing style settings and transformations saved with push().
+  related:
+  - push
+  - popStyle
+  - popMatrix
+  syntax: pop()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("pop",  lua.create_function(|_, ()| { processing::pop_style(); processing::pop_matrix(); Ok(()) })?)?;
+- slug: popStyle
+  name: popStyle()
+  cat_tag: Structure
+  description: Restores the previous style settings saved with pushStyle().
+  related:
+  - pushStyle
+  - push
+  - pop
+  syntax: popStyle()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("popStyle",   lua.create_function(|_, ()| { processing::pop_style();   Ok(()) })?)?;
+- slug: push
+  name: push()
+  cat_tag: Structure
+  description: Saves the current drawing style settings and transformations. Use pop() to restore.
+  related:
+  - pop
+  - pushStyle
+  - pushMatrix
+  syntax: push()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("push", lua.create_function(|_, ()| { processing::push_matrix(); processing::push_style(); Ok(()) })?)?;
+- slug: pushStyle
+  name: pushStyle()
+  cat_tag: Structure
+  description: Saves the current style settings (fill, stroke, font, etc.) onto a stack.
+  related:
+  - popStyle
+  - push
+  - pop
+  syntax: pushStyle()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("pushStyle",  lua.create_function(|_, ()| { processing::push_style();  Ok(()) })?)?;
+- slug: redraw
+  name: redraw()
+  cat_tag: Structure
+  description: Executes the code within draw() one time.
+  related:
+  - draw
+  - loop
+  - noLoop
+  syntax: redraw()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"redraw\", lua.create_function(|_, ()| {\n    processing::redraw(); Ok(())\n})?)?;"
+- slug: setup
+  name: setup()
+  cat_tag: Structure
+  description: Called once when the program starts. Define initial environment properties such as screen size and background color.
+  related:
+  - draw
+  syntax: "function setup()\n  ...\nend"
+  params: []
+  returns: ''
+  uth: []
+- slug: thread
+  name: thread()
+  cat_tag: Structure
+  description: Runs a function on a new detached thread. Accepts a lambda or function.
+  related:
+  - delay
+  syntax: thread(fn)
+  params:
+  - name: fn
+    type: function
+    desc: the function to run on a separate thread
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - "function thread(fn)\n  local f = type(fn) == \"function\" and fn or _G[fn]\n  if type(f) ~= \"function\" then error(\"thread() expects a function or the name of one\", 2) end\n  running[#running + 1] = coroutine.create(f)\nend"
+- slug: delay
+  name: delay()
+  cat_tag: Structure
+  description: Halts the program for the specified number of milliseconds.
+  related:
+  - millis
+  syntax: delay(ms)
+  params:
+  - name: ms
+    type: number
+    desc: number of milliseconds to pause
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"delay\", lua.create_function(|_, ms: LuaValue| {\n    let ms = num(&ms, \"delay()\")?;\n    if ms.is_finite() && ms > 0.0 {\n        std::thread::sleep(std::time::Duration::from_millis(ms.min(60_000.0) as u64));\n    }\n    Ok(())\n})?)?;"
+- slug: cursor
+  name: cursor()
+  cat_tag: Environment
+  description: Sets the cursor to a predefined shape or restores the default cursor.
+  related:
+  - noCursor
+  syntax: 'cursor()
+
+    cursor(type)'
+  params:
+  - name: type
+    type: number
+    desc: ARROW, CROSS, HAND, MOVE, TEXT_CURSOR, WAIT (optional)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"cursor\", lua.create_function(|_, args: LuaMultiValue| {\n    let n = |v: Option<&LuaValue>| match v { Some(LuaValue::Integer(i)) => Some(*i as f64), Some(LuaValue::Number(f)) => Some(*f), _ => None };\n    let first = n(args.get(0));\n    match first {\n        Some(k) if k >= 65536.0 && args.len() >= 3 => engine::cursor_image_at(k as u64, n(args.get(1)).unwrap_or(0.0) as f32, n(args.get(2)).unwrap_or(0.0) as f32),\n        Some(k) if k >= 65536.0 => engine::cursor_image(k as u64),\n        Some(k) if args.len() == 1 => engine::cursor_kind(k as u32),\n        _ => processing::show_cursor(),\n    }\n    Ok(())\n})?)?;"
+- slug: displayHeight
+  name: displayHeight
+  cat_tag: Environment
+  description: System variable storing the full monitor height in pixels.
+  related:
+  - displayWidth
+  - height
+  syntax: displayHeight
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("displayHeight", dh as i64)?;
+- slug: displayWidth
+  name: displayWidth
+  cat_tag: Environment
+  description: System variable storing the full monitor width in pixels.
+  related:
+  - displayHeight
+  - width
+  syntax: displayWidth
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("displayWidth",  dw as i64)?;
+- slug: focused
+  name: focused
+  cat_tag: Environment
+  description: Confirms if the sketch window is focused, meaning it is active and will accept keyboard or mouse input. True when focused.
+  related: []
+  syntax: focused
+  params: []
+  returns: boolean
+  uth:
+  - - runner/src/main.rs
+    - g.set("focused", true)?;
+- slug: frameCount
+  name: frameCount
+  cat_tag: Environment
+  description: System variable storing the number of frames displayed since the sketch started.
+  related:
+  - frameRate_var
+  syntax: frameCount
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("frameCount",    0_i64)?;
+- slug: frameRate_var
+  name: frameRate
+  cat_tag: Environment
+  description: System variable storing the approximate current frame rate.
+  related:
+  - frameRate_fn
+  - frameCount
+  syntax: frameRate
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("frameRate",     60_f64)?;
+- slug: frameRate_fn
+  name: frameRate()
+  cat_tag: Environment
+  description: Sets the target number of frames to display per second.
+  related:
+  - frameRate_var
+  - frameCount
+  syntax: frameRate(fps)
+  params:
+  - name: fps
+    type: number
+    desc: target frames per second
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("frameRate",     60_f64)?;
+- slug: fullScreen
+  name: fullScreen()
+  cat_tag: Environment
+  description: Opens the sketch in fullscreen mode.
+  related:
+  - size
+  syntax: fullScreen()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"fullScreen\", lua.create_function(|lua, ()| {\n    processing::full_screen();\n    let (w, h) = processing::target_size();\n    lua.globals().raw_set(\"width\",  w as i64)?;\n    lua.globals().raw_set(\"height\", h as i64)?;\n    Ok(())\n})?)?;"
+- slug: height
+  name: height
+  cat_tag: Environment
+  description: System variable storing the height of the display window as set by size().
+  related:
+  - width
+  - size
+  syntax: height
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("height", 100_i64)?;
+- slug: noCursor
+  name: noCursor()
+  cat_tag: Environment
+  description: Hides the cursor from view.
+  related:
+  - cursor
+  syntax: noCursor()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"noCursor\", lua.create_function(|_, ()| {\n    processing::hide_cursor(); Ok(())\n})?)?;"
+- slug: noSmooth
+  name: noSmooth()
+  cat_tag: Environment
+  description: Draws all geometry with jagged (aliased) edges.
+  related:
+  - smooth
+  syntax: noSmooth()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("noSmooth", lua.create_function(|_, ()| { processing::smooth(false); Ok(()) })?)?;
+- slug: pixelDensity
+  name: pixelDensity()
+  cat_tag: Environment
+  description: Sets the pixel density for high-DPI (HiDPI/Retina) displays.
+  related:
+  - pixelWidth
+  - pixelHeight
+  syntax: pixelDensity(d)
+  params:
+  - name: d
+    type: number
+    desc: pixel density (1 or 2)
+  returns: ''
+  uth: []
+- slug: pixelHeight
+  name: pixelHeight
+  cat_tag: Environment
+  description: Actual framebuffer height in pixels. Differs from height on HiDPI screens.
+  related:
+  - pixelWidth
+  - pixelDensity
+  syntax: pixelHeight
+  params: []
+  returns: number
+  uth: []
+- slug: pixelWidth
+  name: pixelWidth
+  cat_tag: Environment
+  description: Actual framebuffer width in pixels. Differs from width on HiDPI screens.
+  related:
+  - pixelHeight
+  - pixelDensity
+  syntax: pixelWidth
+  params: []
+  returns: number
+  uth: []
+- slug: size
+  name: size()
+  cat_tag: Environment
+  description: Defines the dimension of the display window. Call in setup(). Optionally pass P2D or P3D as renderer.
+  related:
+  - width
+  - height
+  - fullScreen
+  syntax: 'size(w, h)
+
+    size(w, h, renderer)'
+  params:
+  - name: w
+    type: number
+    desc: width of the window in pixels
+  - name: h
+    type: number
+    desc: height of the window in pixels
+  - name: renderer
+    type: number
+    desc: P2D or P3D (optional)
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"size\", lua.create_function(|lua, (w, h, r): (LuaValue, LuaValue, LuaValue)| {\n    let dim = |v: &LuaValue| -> LuaResult<u32> {\n        let n = num(v, \"size()\")?;\n        if !n.is_finite() || n < 1.0 {\n            return Err(LuaError::RuntimeError(\"size() needs a width and height of at least 1\".into()));\n        }\n        Ok((n.round() as u32).min(8192))\n    };\n    let (w, h) = (dim(&w)?, dim(&h)?);\n    processing::size(w, h);\n    lua.globals().raw_set(\"__renderer\", r)?;\n    lua.globals().raw_set(\"width\",  w)?;\n    lua.globals().raw_set(\"height\", h)?;\n    Ok(())\n})?)?;"
+- slug: smooth
+  name: smooth()
+  cat_tag: Environment
+  description: Draws all geometry with smooth (anti-aliased) edges. Enabled by default.
+  related:
+  - noSmooth
+  syntax: smooth()
+  params: []
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - g.set("smooth",   lua.create_function(|_, ()| { processing::smooth(true);  Ok(()) })?)?;
+- slug: width
+  name: width
+  cat_tag: Environment
+  description: System variable storing the width of the display window as set by size().
+  related:
+  - height
+  - size
+  syntax: width
+  params: []
+  returns: number
+  uth:
+  - - runner/src/main.rs
+    - g.set("width",  100_i64)?;
+- slug: windowMoved
+  name: windowMoved()
+  cat_tag: Environment
+  description: Called when the sketch window is moved. Define this function in your sketch to respond to window move events.
+  related:
+  - windowResized
+  syntax: windowMoved()
+  params: []
+  returns: ''
+  uth: []
+- slug: windowResizable
+  name: windowResizable()
+  cat_tag: Environment
+  description: Makes the window resizable by the user.
+  related:
+  - windowResize
+  syntax: windowResizable(r)
+  params:
+  - name: r
+    type: boolean
+    desc: true to allow resizing
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"windowResizable\", lua.create_function(|_, on: Option<bool>| {\n    processing::window_resizable(on.unwrap_or(true)); Ok(())\n})?)?;"
+- slug: windowResize
+  name: windowResize()
+  cat_tag: Environment
+  description: Resizes the window to the specified dimensions.
+  related:
+  - windowResizable
+  - size
+  syntax: windowResize(w, h)
+  params:
+  - name: w
+    type: number
+    desc: new width
+  - name: h
+    type: number
+    desc: new height
+  returns: ''
+  uth: []
+- slug: windowResized
+  name: windowResized()
+  cat_tag: Environment
+  description: Called when the sketch window is resized. Define this function in your sketch to respond to window resize events.
+  related:
+  - windowMoved
+  - windowResizable
+  - windowResize
+  syntax: windowResized()
+  params: []
+  returns: ''
+  uth: []
+- slug: windowTitle
+  name: windowTitle()
+  cat_tag: Environment
+  description: Sets the title of the sketch window.
+  related: []
+  syntax: windowTitle(t)
+  params:
+  - name: t
+    type: string
+    desc: the title string
+  returns: ''
+  uth:
+  - - runner/src/main.rs
+    - "g.set(\"windowTitle\", lua.create_function(|_, t: LuaString| {\n    processing::window_title(&t.to_string_lossy()); Ok(())\n})?)?;"
+- slug: pixels_arr
+  name: pixels[]
+  cat_tag: Image / Pixels
+  description: Array containing the values for all the pixels in the display window or PImage. Must call loadPixels() before reading and updatePixels() after writing. Each value is a packed ARGB color integer. In Lua, pixels is counted from 0 like in Processing, so the same index math works.
+  related:
+  - loadPixels
+  - updatePixels
+  - get_pixel
+  - set_pixel
+  syntax: 'loadPixels()
+
+    pixels[y * width + x] = color(255, 0, 0)
+
+    updatePixels()'
+  params: []
+  returns: table
+  uth: []
+- slug: mask_fn
+  name: mask()
+  cat_tag: Image / Pixels
+  description: Applies a mask to a PImage. The mask image is a grayscale image where white pixels are opaque and black pixels are transparent.
+  related:
+  - PImage_class
+  - loadPixels
+  - filter
+  syntax: img:mask(maskImg)
+  params:
+  - name: maskImg
+    type: PImage
+    desc: the image whose brightness becomes the alpha
+  returns: ''
+  uth:
+  - - runner/src/prelude.lua
+    - function Image.mask(img, m) pixelsOf[img] = nil return imageMask(img, m) end
