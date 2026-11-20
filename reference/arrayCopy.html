@@ -28,9 +28,9 @@
     
     <h2>Related</h2><div class="related-links"><a href="concat.html">concat</a><a href="subset.html">subset</a></div>
     <h2>Under the Hood</h2><p style="font-size:13px;color:#888;margin-bottom:0.75rem;">From LuaMode/runner/src/prelude.lua:</p><div class="impl-block">function arrayCopy(src, a, b, c, d)
-  if b == nil then for i, x in ipairs(src) do a[i] = x end return end   -- arrayCopy(src, dst)
-  if c == nil then for i = 1, b do a[i] = src[i] end return end           -- arrayCopy(src, dst, n)
-  for i = 0, d - 1 do b[c + i] = src[a + i] end                          -- arrayCopy(src, from, dst, to, n)
+  if b == nil then for i, x in ipairs(src) do a[i] = x end return end -- arrayCopy(src, dst)
+  if c == nil then for i = 1, b do a[i] = src[i] end return end -- arrayCopy(src, dst, n)
+  for i = 0, d - 1 do b[c + i] = src[a + i] end -- arrayCopy(src, from, dst, to, n)
 end</div>
   </div>
 </div>

@@ -50,15 +50,12 @@
     if first and header then
       for i, title in ipairs(fields) do t.titles[i - 1] = title if t.index[title] == nil then t.index[title] = i - 1 end end
       if #fields &gt; t.columns then t.columns = #fields end
-    elseif not (#fields == 1 and fields[1] == "") then      -- skip blank lines
+    elseif not (#fields == 1 and fields[1] == "") then -- skip blank lines
       local row = {}
       for i, v in ipairs(fields) do row[i - 1] = v end
       t.data[t.count] = row
       t.count = t.count + 1
-      if #fields &gt; t.columns then t.columns = #fields end
-    end
     first = false
-  end
   return t
 end</div>
   </div>

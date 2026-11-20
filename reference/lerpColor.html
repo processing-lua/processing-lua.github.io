@@ -39,7 +39,6 @@
     if v.len() &lt; 7 {
         return Err(LuaError::RuntimeError(
             "lerpColor() expects (color, color, amount) or (r1, g1, b1, r2, g2, b2, amount)".into()));
-    }
     let n: Vec&lt;f32&gt; = v.iter().map(|x| x.to_num().unwrap_or(0.0)).collect();
     let (r, g, b) = processing::lerp_color(n[0], n[1], n[2], n[3], n[4], n[5], n[6]);
     Ok(LuaMultiValue::from_vec(vec![

@@ -40,16 +40,12 @@
   if not f then
     io.stderr:write("saveTable: could not write " .. tostring(path) .. " (" .. tostring(why) .. ")\n")
     return false
-  end
   local line = {}
   if t.header then
     for c = 0, t.columns - 1 do line[c + 1] = field(t.titles[c]) end
     f:write(table.concat(line, sep), "\n")
-  end
   for r = 0, t.count - 1 do
     for c = 0, t.columns - 1 do line[c + 1] = field(t.data[r][c]) end
-    f:write(table.concat(line, sep), "\n")
-  end
   f:close()
   return true
 end</div>
