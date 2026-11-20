@@ -33,7 +33,7 @@ shape(s, x, y, w, h)</div>
   if mt == Shape then return draw(s.id, ...) end
   local own = __shapeKinds[mt]
   if own then return own(s, ...) end
-  if s == nil then return end -- a shape that didn't load: draw nothing, as with a missing image
+  if s == nil then return end         -- a shape that didn't load: draw nothing, as with a missing image
   error("shape() expects a shape from loadShape() or createShape()", 2)
 end</div>
   </div>

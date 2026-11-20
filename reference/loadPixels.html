@@ -30,7 +30,7 @@
     <h2>Under the Hood</h2><p style="font-size:13px;color:#888;margin-bottom:0.75rem;">From LuaMode/runner/src/main.rs:</p><div class="impl-block">g.set("loadPixels", lua.create_function(|lua, ()| {
     let px = processing::load_pixels();
     let t = match lua.globals().raw_get::&lt;_, LuaValue&gt;("pixels")? {
-        LuaValue::Table(t) if t.raw_len() + 1 == px.len() =&gt; t, // reuse: same size as last time
+        LuaValue::Table(t) if t.raw_len() + 1 == px.len() =&gt; t,   // reuse: same size as last time
         _ =&gt; lua.create_table_with_capacity(px.len(), 1)?,
     };
     for (i, p) in px.iter().enumerate() { t.raw_set(i as i64, *p as i64)?; }

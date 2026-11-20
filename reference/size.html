@@ -39,7 +39,7 @@ size(w, h, renderer)</div>
     let (w, h) = (dim(&amp;w)?, dim(&amp;h)?);
     processing::size(w, h);
     lua.globals().raw_set("__renderer", r)?;
-    lua.globals().raw_set("width", w)?;
+    lua.globals().raw_set("width",  w)?;
     lua.globals().raw_set("height", h)?;
     Ok(())
 })?)?;</div>

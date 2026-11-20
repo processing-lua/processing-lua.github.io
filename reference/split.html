@@ -41,6 +41,7 @@ function split(s, sep)
     if not a then out[#out + 1] = s:sub(from) break end
     out[#out + 1] = s:sub(from, a - 1)
     from = b + 1
+  end
   return out
 end</div>
   </div>

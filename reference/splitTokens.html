@@ -28,7 +28,7 @@
     <span class="returns-badge">table</span>
     
     <h2>Related</h2><div class="related-links"><a href="split.html">split</a><a href="join.html">join</a></div>
-    <h2>Under the Hood</h2><p style="font-size:13px;color:#888;margin-bottom:0.75rem;">From LuaMode/runner/src/prelude.lua:</p><div class="impl-block">-- splitTokens("a, b c", ", ") -&gt; {"a", "b", "c"}: split on any of the characters, no empty pieces
+    <h2>Under the Hood</h2><p style="font-size:13px;color:#888;margin-bottom:0.75rem;">From LuaMode/runner/src/prelude.lua:</p><div class="impl-block">-- splitTokens("a, b  c", ", ") -&gt; {"a", "b", "c"}: split on any of the characters, no empty pieces
 function splitTokens(s, delims)
   delims = delims or " \t\n\r\f"
   local out = {}

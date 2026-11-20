@@ -32,7 +32,7 @@ rect(x, y, w, h, r)</div>
     match (r, tr, br, bl) {
         (Some(tl), Some(tr), Some(br), Some(bl)) =&gt; processing::rect_radii(x,y,w,h,tl,tr,br,bl),
         (Some(r), ..) if r &gt; 0.0 =&gt; processing::rect_rounded(x,y,w,h,r),
-        _ =&gt; processing::rect(x,y,w,h),
+        _                        =&gt; processing::rect(x,y,w,h),
     }
     Ok(())
 })?)?;</div>

@@ -30,7 +30,7 @@
     <h2>Under the Hood</h2><p style="font-size:13px;color:#888;margin-bottom:0.75rem;">From LuaMode/runner/src/main.rs:</p><div class="impl-block">g.set("fullScreen", lua.create_function(|lua, ()| {
     processing::full_screen();
     let (w, h) = processing::target_size();
-    lua.globals().raw_set("width", w as i64)?;
+    lua.globals().raw_set("width",  w as i64)?;
     lua.globals().raw_set("height", h as i64)?;
     Ok(())
 })?)?;</div>

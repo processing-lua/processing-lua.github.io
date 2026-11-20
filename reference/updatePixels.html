@@ -36,8 +36,8 @@
     for (i, p) in px.iter_mut().enumerate() {
         match t.raw_get::&lt;_, LuaValue&gt;(i as i64)? {
             LuaValue::Integer(n) =&gt; *p = if is_packed(n) { n as u32 } else { gray_pixel(n as f32) },
-            LuaValue::Number(n) =&gt; *p = gray_pixel(n as f32),
-            _ =&gt; {} // nil or anything else: that pixel stays as it is
+            LuaValue::Number(n)  =&gt; *p = gray_pixel(n as f32),
+            _ =&gt; {}   // nil or anything else: that pixel stays as it is
         }
     }
     processing::update_pixels(&amp;px);
