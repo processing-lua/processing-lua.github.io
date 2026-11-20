@@ -65,11 +65,11 @@ function keyPressed()
   if (key >= "A" and key <= "Z") or (key >= "a" and key <= "z") then
     local keyIndex
     if key <= "Z" then
-      keyIndex = key - "A"
+      keyIndex = key:byte() - ("A"):byte()
       letterHeight = maxHeight
       fill(colors[keyIndex + 1])
     else
-      keyIndex = key - "a"
+      keyIndex = key:byte() - ("a"):byte()
       letterHeight = minHeight
       fill(colors[keyIndex + 1])
     end

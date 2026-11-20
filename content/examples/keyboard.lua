@@ -22,9 +22,9 @@ end
 function keyPressed()
   local keyIndex = -1
   if key >= "A" and key <= "Z" then
-    keyIndex = key - "A"
+    keyIndex = key:byte() - ("A"):byte()
   elseif key >= "a" and key <= "z" then
-    keyIndex = key - "a"
+    keyIndex = key:byte() - ("a"):byte()
   end
   if keyIndex == -1 then
     -- If it's not a letter key, clear the screen
